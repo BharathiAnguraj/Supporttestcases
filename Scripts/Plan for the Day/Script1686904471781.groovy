@@ -24,6 +24,8 @@ Mobile.tap(findTestObject('Mobile/Menu/Plan for the Day'), 0)
 
 Mobile.takeScreenshot()
 
+Mobile.verifyElementHasAttribute(findTestObject('Mobile/Plan for the Day/Stores to visit count'), 'text', 0)
+
 stores_planned_for_the_Day = Mobile.getText(findTestObject('Mobile/Plan for the Day/Stores to visit count'), 0)
 
 KeywordUtil.logInfo(stores_planned_for_the_Day)
@@ -35,4 +37,10 @@ Mobile.sendKeys(findTestObject('Mobile/Plan for the Day/Search bar'), GlobalVari
 Mobile.tap(findTestObject('Mobile/Plan for the Day/Retailer in search list'), 0)
 
 Mobile.callTestCase(findTestCase('Retailer contact KYC'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/GoogleMap'), 0)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('Mobile/Plan for the Day/Tab_INVOICE HISTORY'), 0)
 

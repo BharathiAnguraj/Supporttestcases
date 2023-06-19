@@ -35,7 +35,7 @@ if (Mobile.verifyElementExist(findTestObject('Mobile/Activation Key/Allow IvyCpg
     Mobile.tap(findTestObject('Mobile/Activation Key/Button Allow'), 0)
 }
 
-if (Mobile.verifyElementExist(findTestObject('Mobile/Activation Key/Activation Key'), 5, FailureHandling.OPTIONAL)) {
+if (Mobile.verifyElementExist(findTestObject('Mobile/Activation Key/Activation Key'), 50, FailureHandling.OPTIONAL)) {
     Mobile.sendKeys(findTestObject('Mobile/Activation Key/Activation Key'), GlobalVariable.ActivationKey)
 
     Mobile.tap(findTestObject('Mobile/Activation Key/Activate button'), 0)

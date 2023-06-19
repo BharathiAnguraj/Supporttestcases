@@ -19,5 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.callTestCase(findTestCase('Login/DSE Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.callTestCase(findTestCase('Attendance'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.callTestCase(findTestCase('Plan for the Day'), [:], FailureHandling.STOP_ON_FAILURE)
 

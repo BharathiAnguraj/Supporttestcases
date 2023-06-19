@@ -17,9 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('Login/DSE Login'), [:], FailureHandling.STOP_ON_FAILURE)
+if (Mobile.verifyElementExist(findTestObject('Mobile/Activation Key/Button Allow'), 10, FailureHandling.OPTIONAL))
+	{
+		Mobile.tap(findTestObject('Mobile/Activation Key/Button Allow'), 0)
+	}
+	
+	if (Mobile.verifyElementExist(findTestObject('Object Repository/Mobile/Attendance/END Button'), 5, FailureHandling.OPTIONAL))
+		{
+			
+		}
+	else
+	{
+		Mobile.tap(findTestObject('Object Repository/Mobile/Attendance/Plus icon'), 0)
+		
+		Mobile.tap(findTestObject('Object Repository/Mobile/Attendance/Attendance Reasons/Working'), 0)
+		
+		Mobile.tap(findTestObject('Object Repository/Mobile/Attendance/Attendance Reasons/OK Button'), 0)
+		Mobile.waitForElementPresent(findTestObject('Object Repository/Mobile/Attendance/Attendance Upload Pop-up/OK Button'), 5)
+		Mobile.tap(findTestObject('Object Repository/Mobile/Attendance/Attendance Upload Pop-up/OK Button'), 0)
 
-Mobile.callTestCase(findTestCase('Attendance'), [:], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.callTestCase(findTestCase('Trade Coverage'), [:], FailureHandling.STOP_ON_FAILURE)
-
+		
+	}
+	

@@ -35,7 +35,7 @@ if (Mobile.verifyElementExist(findTestObject('Mobile/Activation Key/Allow IvyCpg
     Mobile.tap(findTestObject('Mobile/Activation Key/Button Allow'), 0)
 }
 
-if (Mobile.verifyElementExist(findTestObject('Mobile/Activation Key/Activation Key'), 50, FailureHandling.OPTIONAL)) {
+if (Mobile.verifyElementExist(findTestObject('Mobile/Activation Key/Activation Key'), 5, FailureHandling.OPTIONAL)) {
     Mobile.sendKeys(findTestObject('Mobile/Activation Key/Activation Key'), GlobalVariable.ActivationKey)
 
     Mobile.tap(findTestObject('Mobile/Activation Key/Activate button'), 0)
@@ -97,10 +97,10 @@ else {
 		}
 }
 
-if (Mobile.verifyElementExist(findTestObject('Object Repository/Mobile/Login/Do you want to continue in this device'), 100, FailureHandling.OPTIONAL))
+if (Mobile.verifyElementExist(findTestObject('Object Repository/Mobile/Login/Do you want to continue in this device'), 10, FailureHandling.OPTIONAL))
 {
 	Mobile.tap(findTestObject('Object Repository/Mobile/Login/YES Button'), 0)
 }
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Mobile/Attendance/Header Attendance'), 50)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Mobile/Attendance/Header Attendance'), 5)
 	

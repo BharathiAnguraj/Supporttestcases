@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('Mobile/Main Navigation Button'), 0)
 
-Mobile.tap(findTestObject('Mobile/Menu/Plan for the Day'), 0)
+Mobile.tap(findTestObject('Mobile/Menu/Trade Coverage'), 0)
 
 Mobile.takeScreenshot()
 
@@ -36,25 +36,13 @@ Mobile.sendKeys(findTestObject('Mobile/Plan for the Day/Search bar'), GlobalVari
 
 Mobile.tap(findTestObject('Mobile/Plan for the Day/Retailer in search list'), 0)
 
-Mobile.callTestCase(findTestCase('Retailer contact KYC'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('completed Cases/Retailer contact KYC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/GoogleMap'), 0)
+Mobile.waitForElementPresent(findTestObject('Mobile/Retailer Profile/Start Visit Button'), 20)
 
-Mobile.takeScreenshot()
+Mobile.tap(findTestObject('Mobile/Retailer Profile/Start Visit Button'), 0)
 
-Mobile.tap(findTestObject('Mobile/Plan for the Day/Tab_INVOICE HISTORY'), 0)
+Mobile.callTestCase(findTestCase('completed Cases/DSE User not in Retailer Location handler'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot()
-
-Mobile.tap(findTestObject('Mobile/Plan for the Day/Tab_PLAN FOR DAY'), 0)
-
-Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Plan for Day Tab/Monthly Achievement'), 0)
-
-Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Plan for Day Tab/Days Target'), 0)
-
-Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Plan for Day Tab/GP status'), 0)
-
-Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Plan for Day Tab/GP Plan'), 0)
-
-Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Plan for Day Tab/Smart Lines (Ach vs Total Size)'), 0)
+Mobile.delay(20, FailureHandling.STOP_ON_FAILURE)
 

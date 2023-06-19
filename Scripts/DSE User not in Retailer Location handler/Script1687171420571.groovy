@@ -17,5 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.verifyElementExist(findTestObject(null), 0)
+Mobile.verifyElementExist(findTestObject('Mobile/Retailer Profile/Retailer Location not Match Popup/Store distance from DSE Location'), 
+    0)
+
+Mobile.tap(findTestObject('Mobile/Retailer Profile/Retailer Location not Match Popup/Reason for not in retailer Location/GPSMobile Network issue'), 
+    0)
+
+Mobile.tap(findTestObject('Mobile/Retailer Profile/Retailer Location not Match Popup/OK Button'), 0)
 

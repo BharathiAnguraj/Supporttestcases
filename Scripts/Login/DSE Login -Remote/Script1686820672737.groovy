@@ -99,7 +99,7 @@ else {
 
 if (Mobile.verifyElementExist(findTestObject('Object Repository/Mobile/Login/Do you want to continue in this device'), 100, FailureHandling.OPTIONAL))
 {
-	Mobile.tap(findTestObject('Object Repository/Mobile/Login/Button - YES'), 0)
+	Mobile.tap(findTestObject('Object Repository/Mobile/Login/YES Button'), 0)
 }
 
 if (Mobile.verifyElementExist(findTestObject('Mobile/Activation Key/Button Allow'), 100, FailureHandling.OPTIONAL))

@@ -44,3 +44,17 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Mobile/Plan for the Day/Tab_INVOICE HISTORY'), 0)
 
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('Mobile/Plan for the Day/Tab_PLAN FOR DAY'), 0)
+
+Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Plan for Day Tab/Monthly Achievement'), 0)
+
+Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Plan for Day Tab/Days Target'), 0)
+
+Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Plan for Day Tab/GP status'), 0)
+
+Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Plan for Day Tab/GP Plan'), 0)
+
+Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Plan for Day Tab/Smart Lines (Ach vs Total Size)'), 0)
+

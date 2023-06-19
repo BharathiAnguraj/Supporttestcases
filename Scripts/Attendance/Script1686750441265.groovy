@@ -32,9 +32,9 @@ if (Mobile.verifyElementExist(findTestObject('Mobile/Activation Key/Button Allow
 		
 		Mobile.tap(findTestObject('Object Repository/Mobile/Attendance/Attendance Reasons/Working'), 0)
 		
-		Mobile.tap(findTestObject('Object Repository/Mobile/Attendance/Attendance Reasons/Button - OK'), 0)
-		Mobile.waitForElementPresent(findTestObject('Object Repository/Mobile/Attendance/Attendance Upload Pop-up/Button - OK'), 5)
-		Mobile.tap(findTestObject('Object Repository/Mobile/Attendance/Attendance Upload Pop-up/Button - OK'), 0)
+		Mobile.tap(findTestObject('Object Repository/Mobile/Attendance/Attendance Reasons/OK Button'), 0)
+		Mobile.waitForElementPresent(findTestObject('Object Repository/Mobile/Attendance/Attendance Upload Pop-up/OK Button'), 5)
+		Mobile.tap(findTestObject('Object Repository/Mobile/Attendance/Attendance Upload Pop-up/OK Button'), 0)
 
 		
 	}

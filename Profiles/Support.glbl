@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Support</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>web Application URL</description>
+      <initValue>'https://cloud01-in.ivydms.com/web/DMS'</initValue>
+      <name>appUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Branch user username</description>
+      <initValue>'TNPKL_IDSS01'</initValue>
+      <name>branchUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>branch user password</description>
+      <initValue>'Password1'</initValue>
+      <name>branchUserPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Application under test</description>
+      <initValue>'APK File/IvyDMS_PNGIndia_1571_9917.apk'</initValue>
+      <name>AndroidApplication</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Activation key for the application</description>
+      <initValue>'PNGIN-SF-RPKFEIZ'</initValue>
+      <name>ActivationKey</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>DSE User Username</description>
+      <initValue>'TNPKL_MS115'</initValue>
+      <name>dseUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>DSE User Password</description>
+      <initValue>'password1'</initValue>
+      <name>dsePassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>Salesperson</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'ABNI '</initValue>
+      <name>MobileRetailer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>deliveryPerson</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

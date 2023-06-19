@@ -42,7 +42,13 @@ Mobile.waitForElementPresent(findTestObject('Mobile/Retailer Profile/Start Visit
 
 Mobile.tap(findTestObject('Mobile/Retailer Profile/Start Visit Button'), 0)
 
+Mobile.takeScreenshot()
+
 Mobile.callTestCase(findTestCase('completed Cases/DSE User not in Retailer Location handler'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.delay(20, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('completed Cases/Call Record Activity Handler'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
 

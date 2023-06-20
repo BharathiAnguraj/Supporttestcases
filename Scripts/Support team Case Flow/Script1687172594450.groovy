@@ -27,3 +27,5 @@ Mobile.callTestCase(findTestCase('completed Cases/Review Plan and Enter call'), 
 
 Mobile.callTestCase(findTestCase('completed Cases/Presentation Activity'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.callTestCase(findTestCase('completed Cases/Presentation screen add 40 line items'), [:], FailureHandling.STOP_ON_FAILURE)
+

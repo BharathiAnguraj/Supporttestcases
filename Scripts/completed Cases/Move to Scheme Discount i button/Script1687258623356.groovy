@@ -6,6 +6,7 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword as MobileAbstractKeyword
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
@@ -19,8 +20,15 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startExistingApplication('com.ivy.sd.png.asean.view', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.delay(5)
+if (Mobile.verifyElementNotVisible(findTestObject('Object Repository/Mobile/Scheme Discount'), 0, FailureHandling.OPTIONAL)) {
+    Mobile.scrollToText('Scheme Discount', FailureHandling.STOP_ON_FAILURE)
 
+    Mobile.tap(findTestObject('Object Repository/Mobile/Scheme Discount'), 0)
 
+    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
+    Mobile.takeScreenshot()
+}
+
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Close and Confirm/Scheme Discount close button'), 0)
 

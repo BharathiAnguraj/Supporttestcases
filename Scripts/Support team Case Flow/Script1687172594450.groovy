@@ -21,8 +21,17 @@ Mobile.callTestCase(findTestCase('Login/DSE Login'), [:], FailureHandling.STOP_O
 
 Mobile.callTestCase(findTestCase('completed Cases/Attendance'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.callTestCase(findTestCase('completed Cases/Day Dashboard'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('completed Cases/Month Dashboard'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('completed Cases/Plan for the Day'), [:], FailureHandling.STOP_ON_FAILURE)
+
 Mobile.callTestCase(findTestCase('completed Cases/Trade Coverage'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('completed Cases/Review Plan and Enter call'), [:], FailureHandling.STOP_ON_FAILURE)
 
 Mobile.callTestCase(findTestCase('completed Cases/Presentation Activity'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('completed Cases/Presentation screen add 40 line items'), [:], FailureHandling.STOP_ON_FAILURE)
+

@@ -17,13 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+Mobile.startExistingApplication('com.ivy.sd.png.asean.view', FailureHandling.STOP_ON_FAILURE)
 
-if (Mobile.verifyElementExist(findTestObject('Mobile/Store Acrivities/Call Record Activity/Call Record Activity Header'), 5, FailureHandling.OPTIONAL)) 
-{
-	
-Mobile.takeScreenshot()
+Mobile.delay(5)
 
-Mobile.tap(findTestObject('Mobile/Store Acrivities/Call Record Activity/CANCEL Button'), 0)
-}
+
 
 

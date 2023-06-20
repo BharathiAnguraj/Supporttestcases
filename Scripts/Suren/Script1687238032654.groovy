@@ -19,9 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.callTestCase(findTestCase('Login/DSE Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('completed Cases/Attendance'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: Mobile.callTestCase(findTestCase('completed Cases/Attendance'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('completed Cases/Trade Coverage'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: Mobile.callTestCase(findTestCase('completed Cases/Trade Coverage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('completed Cases/Collection'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: Mobile.callTestCase(findTestCase('completed Cases/Collection'), [:], FailureHandling.STOP_ON_FAILURE)
+
+not_run: Mobile.callTestCase(findTestCase('completed Cases/Call Analysis'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('completed Cases/Sync'), [:], FailureHandling.STOP_ON_FAILURE)
 

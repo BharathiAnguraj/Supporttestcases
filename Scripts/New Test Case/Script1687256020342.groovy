@@ -24,4 +24,7 @@ if (Mobile.verifyElementNotVisible(findTestObject('Object Repository/Mobile/Sche
     Mobile.scrollToText('Scheme Discount', FailureHandling.STOP_ON_FAILURE)
 
     Mobile.tap(findTestObject('Object Repository/Mobile/Scheme Discount'), 0)
+
+    Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 }
+

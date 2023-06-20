@@ -23,9 +23,5 @@ Mobile.callTestCase(findTestCase('completed Cases/Attendance'), [:], FailureHand
 
 Mobile.callTestCase(findTestCase('completed Cases/Trade Coverage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('completed Cases/Review Plan and Enter call'), [:], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.callTestCase(findTestCase('completed Cases/Presentation Activity'), [:], FailureHandling.STOP_ON_FAILURE)
-
 Mobile.callTestCase(findTestCase('completed Cases/Collection'), [:], FailureHandling.STOP_ON_FAILURE)
 

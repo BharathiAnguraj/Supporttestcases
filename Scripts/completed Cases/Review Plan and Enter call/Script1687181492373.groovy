@@ -17,13 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('Login/DSE Login'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Activities/Review Plan'), 0)
 
-Mobile.callTestCase(findTestCase('completed Cases/Attendance'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('completed Cases/Trade Coverage'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshot()
 
-Mobile.callTestCase(findTestCase('completed Cases/Review Plan and Enter call'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Activity Next Button'), 0)
 
-Mobile.callTestCase(findTestCase('completed Cases/Presentation Activity'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Activity Next Button'), 0)
+
+Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 

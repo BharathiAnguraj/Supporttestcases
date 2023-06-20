@@ -22,6 +22,8 @@ Mobile.tap(findTestObject('Mobile/Main Navigation Button'), 0)
 
 Mobile.tap(findTestObject('Mobile/Menu/Trade Coverage'), 0)
 
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.takeScreenshot()
 
 Mobile.verifyElementHasAttribute(findTestObject('Mobile/Plan for the Day/Stores to visit count'), 'text', 0)
@@ -41,6 +43,8 @@ Mobile.callTestCase(findTestCase('completed Cases/Retailer contact KYC'), [:], F
 Mobile.waitForElementPresent(findTestObject('Mobile/Retailer Profile/Start Visit Button'), 20)
 
 Mobile.tap(findTestObject('Mobile/Retailer Profile/Start Visit Button'), 0)
+
+Mobile.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot()
 

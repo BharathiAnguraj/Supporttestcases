@@ -23,3 +23,9 @@ Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot()
 
+Mobile.sendKeys(findTestObject('Mobile/Store Acrivities/Returns/Invoice number textbox'), 'Test1')
+
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Returns/Reason selection Dropdown'), 0)
+
+Mobile.sendKeys(findTestObject('Mobile/Store Acrivities/Returns/Pieces Count Text box'), '1')
+

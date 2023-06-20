@@ -23,5 +23,7 @@ Mobile.callTestCase(findTestCase('completed Cases/Attendance'), [:], FailureHand
 
 Mobile.callTestCase(findTestCase('completed Cases/Trade Coverage'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('completed Cases/Collection'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: Mobile.callTestCase(findTestCase('completed Cases/Collection'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('completed Cases/Call Analysis'), [:], FailureHandling.STOP_ON_FAILURE)
 

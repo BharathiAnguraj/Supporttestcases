@@ -130,3 +130,13 @@ Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Mobile/Store Acrivities/Presentation/Order screen/Base'), 0)
 
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Presentation/Order screen/Filter Icon'), 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Back Button'), 0)
+

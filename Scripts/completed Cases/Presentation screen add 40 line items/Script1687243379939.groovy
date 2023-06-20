@@ -16,8 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startExistingApplication('com.ivy.sd.png.asean.view', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.sendKeys(findTestObject('Mobile/Store Acrivities/Presentation/SKU1_Pieces'), '1')
 
 Mobile.sendKeys(findTestObject('Mobile/Store Acrivities/Presentation/SKU2_Pieces'), '1')
@@ -222,6 +220,10 @@ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Mobile/Store Acrivities/Close and Confirm/split up Close button'), 0)
 
+Mobile.callTestCase(findTestCase('completed Cases/Move to Scheme Discount i button'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.tap(findTestObject('Mobile/Store Acrivities/Close and Confirm/Order Button'), 0)
 
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
@@ -233,4 +235,6 @@ Mobile.tap(findTestObject('Mobile/Store Acrivities/Close and Confirm/Delivery sl
 Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Close and Confirm/Order saved Pop up/NEXT Button'), 0)
 

@@ -1,11 +1,26 @@
 [35m[Appium][39m Welcome to Appium v1.22.3
 [35m[Appium][39m Non-default server args:
+<<<<<<< HEAD
+[35m[Appium][39m   port: 58961
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\SUREND~1.M\AppData\Local\Temp\\Katalon\Appium\Temp1687177336672
+[35m[Appium][39m   chromedriverPort: 58962
+=======
 [35m[Appium][39m   port: 57239
 [35m[Appium][39m   tmpDir: C:\Users\bharathi.a\AppData\Local\Temp\\Katalon\Appium\Temp1687183773640
 [35m[Appium][39m   chromedriverPort: 57240
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[Appium][39m Deprecated server args:
+<<<<<<< HEAD
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities '{"chromedriverPort":58962}'
+=======
 [35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+<<<<<<< HEAD
+[35m[Appium][39m   chromedriverPort: 58962
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:58961
+=======
 [35m[Appium][39m   chromedriverPort: 57240
 [35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:57239
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
@@ -14,16 +29,25 @@
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m5 ms - 68[39m
 [35m[HTTP][39m [90m[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
 [debug] [35m[GENERIC][39m Calling AppiumDriver.getStatus() with args: []
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"com.android.settings","appWaitActivity":"*","deviceId":"5200149243802637","deviceName":"samsung SM-T395 (Android 9)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"520014a443292667","systemPort":8226},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"5200149243802637","appium:deviceName":"samsung SM-T395 (Android 9)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":8226,"appium:udid":"520014a443292667"}]}}[39m
+=======
 [35m[HTTP][39m [90m{"desiredCapabilities":{"appPackage":"com.android.settings","appWaitActivity":"*","deviceId":"5200149243802637","deviceName":"samsung SM-T395 (Android 9)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"5200149243802637","systemPort":8260},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"5200149243802637","appium:deviceName":"samsung SM-T395 (Android 9)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":8260,"appium:udid":"5200149243802637"}]}}[39m
 [debug] [35m[W3C][39m Calling AppiumDriver.createSession() with args: [{"appPackage":"com.android.settings","appWaitActivity":"*","deviceId":"5200149243802637","deviceName":"samsung SM-T395 (Android 9)","platform":"ANDROID","appActivity":".Settings","newCommandTimeout":1800,"platformVersion":"9","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"5200149243802637","systemPort":8260},null,{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:appWaitActivity":"*","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"5200149243802637","appium:deviceName":"samsung SM-T395 (Android 9)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"9","appium:systemPort":8260,"appium:udid":"5200149243802637"}]}]
 [debug] [35m[BaseDriver][39m Event 'newSessionRequested' logged at 1687183775567 (19:39:35 GMT+0530 (India Standard Time))
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
 [35m[BaseDriver][39m   deviceId
 [35m[BaseDriver][39m   platform
@@ -54,7 +78,11 @@
 [35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
 [35m[BaseDriver][39m   deviceId
 [35m[BaseDriver][39m   platform
+<<<<<<< HEAD
+[35m[BaseDriver][39m Session created with session id: 35695311-261a-447e-b1f5-2bc85892d277
+=======
 [35m[BaseDriver][39m Session created with session id: 45e5443e-e91e-4fe9-bf85-208e01ebe9b2
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
 [35m[ADB][39m Found 3 'build-tools' folders under 'C:\Users\bharathi.a\AppData\Local\Android\Sdk' (newest first):
 [35m[ADB][39m     C:/Users/bharathi.a/AppData/Local/Android/Sdk/build-tools/34.0.0
@@ -169,6 +197,9 @@
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
 [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8260/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
+<<<<<<< HEAD
+[35m[WD Proxy][39m socket hang up
+=======
 [debug] [35m[WD Proxy][39m Matched '/status' to command name 'getStatus'
 [debug] [35m[WD Proxy][39m Proxying [GET /status] to [GET http://127.0.0.1:8260/wd/hub/status] with no body
 [35m[WD Proxy][39m socket hang up
@@ -183,12 +214,17 @@
 [debug] [35m[WD Proxy][39m Matched '/session' to command name 'createSession'
 [debug] [35m[WD Proxy][39m Proxying [POST /session] to [POST http://127.0.0.1:8260/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"5200149243802637","platform":"ANDROID","chromedriverPort":57240,"appActivity":".Settings","appPackage":"com.android.settings","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-T395 (Android 9)","newCommandTimeout":1800,"platformVersion":"9","systemPort":8260,"udid":"5200149243802637"},"platformName":"android","deviceId":"5200149243802637","chromedriverPort":57240,"appActivity":".Settings","appPackage":"com.android.settings","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"5200149243802637","newCommandTimeout":1800,"platformVersion":"9","systemPort":8260,"udid":"5200149243802637","deviceUDID":"5200149243802637"}],"alwaysMatch":{}}}
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":{"capabilities":{"firstMatch":[{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"5200149243802637","platform":"ANDROID","chromedriverPort":57240,"appActivity":".Settings","appPackage":"com.android.settings","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-T395 (Android 9)","newCommandTimeout":1800,"platformVersion":"9","systemPort":8260,"udid":"5200149243802637"},"platformName":"android","deviceId":"5200149243802637","chromedriverPort":57240,"appActivity":".Settings","appPackage":"com.android.settings","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"5200149243802637","newCommandTimeout":1800,"platformVersion":"9","systemPort":8260,"udid":"5200149243802...
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
 [debug] [35m[WD Proxy][39m Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8260/wd/hub/session/11cd867d-bd4b-4ea9-b1af-386b525997bc/appium/device/info] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":{"androidId":"4028fc53f16e8708","apiVersion":"28","bluetooth":{"state":"OFF"},"brand":"samsung","carrierName":"","displayDensity":213,"locale":"en_GB","manufacturer":"samsung","model":"SM-T395","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_WIFI_P2P,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-2147483648,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"IDLE","extraInfo":null,"isAvailable":true,"isConnected":false,"isFailover":false,"isRoaming":false,"state":"UNKNOWN","subtype":0,"subtypeName":"","type":13,"typeName":"WIFI_P2P"},{"capabilities":{"SSID":null,"linkDownBandwidthKbps":1048576,"linkUpstreamBandwidthKbps":1048576,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRU...
 [debug] [35m[ADB][39m Running 'C:\Users\bharathi.a\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 5200149243802637 shell dumpsys window'
 [35m[AndroidDriver][39m Screen already unlocked, doing nothing
 [35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/*'
+<<<<<<< HEAD
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 35695311-261a-447e-b1f5-2bc85892d277 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m38031 ms - 1279[39m
+=======
 [debug] [35m[ADB][39m Running 'C:\Users\bharathi.a\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 5200149243802637 shell am start -W -n com.android.settings/.Settings -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
 [debug] [35m[ADB][39m Waiting up to 20000ms for activity matching pkg: 'com.android.settings' and activity: '*' to be focused
 [debug] [35m[ADB][39m Possible activities, to be checked: '*', 'com.android.settings.*'
@@ -208,9 +244,17 @@
 [debug] [35m[W3C (45e5443e)][39m Cached the protocol value 'W3C' for the new session 45e5443e-e91e-4fe9-bf85-208e01ebe9b2
 [debug] [35m[W3C (45e5443e)][39m Responding to client with driver.createSession() result: {"capabilities":{"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"5200149243802637","platform":"ANDROID","chromedriverPort":57240,"appActivity":".Settings","appPackage":"com.android.settings","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-T395 (Android 9)","newCommandTimeout":1800,"platformVersion":"9","systemPort":8260,"udid":"5200149243802637"},"platformName":"android","deviceId":"5200149243802637","chromedriverPort":57240,"appActivity":".Settings","appPackage":"com.android.settings","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"5200149243802637","newCommandTimeout":1800,"platformVersion":"9","systemPort":8260,"udid":"5200149243802637","deviceUDID":"5200149243802637","deviceApiLevel":28,"deviceScreenSize"...
 [35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m15910 ms - 1279[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277 [39m[32m200[39m [90m33 ms - 1233[39m
+=======
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.getSession() with args: ["45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
 [debug] [35m[UiAutomator2][39m Getting session details from server to mix in
 [debug] [35m[WD Proxy][39m Matched '/' to command name 'getSession'
@@ -218,9 +262,17 @@
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":{"lastScrollData":null}}
 [debug] [35m[W3C (45e5443e)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"5200149243802637","platform":"ANDROID","chromedriverPort":57240,"appActivity":".Settings","appPackage":"com.android.settings","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-T395 (Android 9)","newCommandTimeout":1800,"platformVersion":"9","systemPort":8260,"udid":"5200149243802637"},"platformName":"android","deviceId":"5200149243802637","chromedriverPort":57240,"appActivity":".Settings","appPackage":"com.android.settings","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"5200149243802637","newCommandTimeout":1800,"platformVersion":"9","systemPort":8260,"udid":"5200149243802637","deviceUDID":"5200149243802637","deviceApiLevel":28,"deviceScreenSize":"800x1280","dev...
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2 [39m[32m200[39m [90m34 ms - 1233[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277 [39m[32m200[39m [90m31 ms - 1233[39m
+=======
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.getSession() with args: ["45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
 [debug] [35m[UiAutomator2][39m Getting session details from server to mix in
 [debug] [35m[WD Proxy][39m Matched '/' to command name 'getSession'
@@ -228,6 +280,7 @@
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":{"lastScrollData":null}}
 [debug] [35m[W3C (45e5443e)][39m Responding to client with driver.getSession() result: {"platform":"ANDROID","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","deviceId":"5200149243802637","platform":"ANDROID","chromedriverPort":57240,"appActivity":".Settings","appPackage":"com.android.settings","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"samsung SM-T395 (Android 9)","newCommandTimeout":1800,"platformVersion":"9","systemPort":8260,"udid":"5200149243802637"},"platformName":"android","deviceId":"5200149243802637","chromedriverPort":57240,"appActivity":".Settings","appPackage":"com.android.settings","appWaitActivity":"*","autoGrantPermissions":true,"automationName":"uiautomator2","deviceName":"5200149243802637","newCommandTimeout":1800,"platformVersion":"9","systemPort":8260,"udid":"5200149243802637","deviceUDID":"5200149243802637","deviceApiLevel":28,"deviceScreenSize":"800x1280","dev...
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2 [39m[32m200[39m [90m33 ms - 1233[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
 [35m[HTTP][39m [90m{}[39m
@@ -235,34 +288,65 @@
 [debug] [35m[GENERIC][39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
 [35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/timeouts[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/timeouts[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{"implicit":60000}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+=======
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,60000,"45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
 [debug] [35m[BaseDriver][39m W3C timeout argument: {"implicit":60000}}
 [debug] [35m[BaseDriver][39m Set implicit wait to 60000ms
 [debug] [35m[W3C (45e5443e)][39m Responding to client with driver.timeouts() result: null
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/timeouts [39m[32m200[39m [90m5 ms - 14[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/screenshot[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/screenshot[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/screenshot [39m[32m200[39m [90m699 ms - 99328[39m
+=======
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.getScreenshot() with args: ["45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
 [debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
 [debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8260/wd/hub/session/11cd867d-bd4b-4ea9-b1af-386b525997bc/screenshot] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":"iVBORw0KGgoAAAANSUhEUgAAAyAAAAUACAYAAAC/DDZkAAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3Xd8VeXhx/HvHUnIIGEKBsIIS8KIaEUExMGmFhVBWfVncbdSrZtWW1SsilawSIWCFEULAoIi\noCggGghTlhhAZIYEAgRIyCQ39/z+iJwmknEzeBLC5/16+eq9N2c8IK96P5znPMeRmppqCQAAAAAM\ncFb2AAAAAABcOggQAAAAAMYQIAAAAACMIUAAAAAAGEOAAAAAADDGXdkDAAAAAFB1WZal3bt3y+Px\n2J+53W61adNGDoej1McjQHzgzNitgP1/lTNptSyPV44cryyvJVlueRr+RjnRL8sKqFfZwwQAAMBF\nIjk5WXv37lV8fLyOHz+u4OBghYWFqWnTpmrbtq38/f0re4g2y7J08uTJCjueg+eAFMOyFPx9Z3lP\nJ8mRmyt5vFKuZf+v5fFKHq8ccirjzuOSgxltAAAAKFxaWppiYmK0bds2HTlypMjt3G63oqOjdcst\nt6hOnToXZCzbt2/XyZMndeONNxa5zcmTJ5Weni7LsnT48OHzfh4RESFJCg0NVVhYmM/nrpArIKdO\nnVLNmjXldhd+uKysLB0+fFhZWVmqVauWwsPD5XT6/mU9MzNTCQkJyszMVHBwsBo1aqSAgIALci5b\n9lEFbbtOltcrh79DslxSpqTc3PO3zfXKeWqbPJ+ekGPkTXL4cWEJAAAAec6ePauFCxdqw4YNkqTo\n6Gh1795djRs3Vu3atRUaGipJys3NVVxcnDZu3KgtW7Zo+/bt6t27t/r27VvhY/rmm2/0008/FRsg\nBw8etF8HBgae9/MTJ07Y/9upUyefz13mb8rZ2dnatWuXNm3apO3bt2vcuHGqWbPmedvFxcVpzpw5\nSklJsT9r3bq1hg8frtq1a5d4...
 [debug] [35m[W3C (45e5443e)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAyAAAAUACAYAAAC/DDZkAAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3Xd8VeXhx/HvHUnIIGEKBsIIS8KIaEUExMGmFhVBWfVncbdSrZtWW1SsilawSIWCFEULAoIi\noCggGghTlhhAZIYEAgRIyCQ39/z+iJwmknEzeBLC5/16+eq9N2c8IK96P5znPMeRmppqCQAAAAAM\ncFb2AAAAAABcOggQAAAAAMYQIAAAAACMIUAAAAAAGEOAAAAAADDGXdkDAAAAAFB1WZal3bt3y+Px\n2J+53W61adNGDoej1McjQHzgzNitgP1/lTNptSyPV44cryyvJVlueRr+RjnRL8sKqFfZwwQAAMBF\nIjk5WXv37lV8fLyOHz+u4OBghYWFqWnTpmrbtq38/f0re4g2y7J08uTJCjueg+eAFMOyFPx9Z3lP\nJ8mRmyt5vFKuZf+v5fFKHq8ccirjzuOSgxltAAAAKFxaWppiYmK0bds2HTlypMjt3G63oqOjdcst\nt6hOnToXZCzbt2/XyZMndeONNxa5zcmTJ5Weni7LsnT48OHzfh4RESFJCg0NVVhYmM/nrpArIKdO\nnVLNmjXldhd+uKysLB0+fFhZWVmqVauWwsPD5XT6/mU9MzNTCQkJyszMVHBwsBo1aqSAgIALci5b\n9lEFbbtOltcrh79DslxSpqTc3PO3zfXKeWqbPJ+ekGPkTXL4cWEJAAAAec6ePauFCxdqw4YNkqTo\n6Gh1795djRs3Vu3atRUaGipJys3NVVxcnDZu3KgtW7Zo+/bt6t27t/r27VvhY/rmm2/0008/FRsg\nBw8etF8HBgae9/MTJ07Y/9upUyefz13mb8rZ2dnatWuXNm3apO3bt2vcuHGqWbPmedvFxcVpzpw5\nSklJsT9r3bq1hg8frtq1a5d4ns2bN2v+/PlKT0+3P6tVq5aGDBmi9u3bV+i5/sdS0LbrJK/3fx85\nHFKQWw...
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/screenshot [39m[32m200[39m [90m683 ms - 98136[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/window/rect[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/window/rect[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/window/rect [39m[32m200[39m [90m76 ms - 49[39m
+=======
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.getWindowRect() with args: ["45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
 [debug] [35m[WD Proxy][39m Matched '/window/current/size' to command name 'getWindowSize'
 [debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8260/wd/hub/session/11cd867d-bd4b-4ea9-b1af-386b525997bc/window/current/size] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":{"height":1280,"width":800}}
 [debug] [35m[W3C (45e5443e)][39m Responding to client with driver.getWindowRect() result: {"width":800,"height":1280,"x":0,"y":0}
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/window/rect [39m[32m200[39m [90m45 ms - 49[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/appium/device/system_bars[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/appium/device/system_bars[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/appium/device/system_bars [39m[31m500[39m [90m464 ms - 659[39m
+=======
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.getSystemBars() with args: ["45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
 [debug] [35m[ADB][39m Running 'C:\Users\bharathi.a\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 5200149243802637 shell dumpsys window windows'
 [debug] [35m[W3C (45e5443e)][39m Encountered internal error running command: Error: Failed to parse navigation bar information.
@@ -270,19 +354,35 @@
 [debug] [35m[W3C (45e5443e)][39m     at parseWindows (C:\Users\bharathi.a\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\general.js:361:9)
 [debug] [35m[W3C (45e5443e)][39m     at AndroidUiautomator2Driver.getSystemBars (C:\Users\bharathi.a\AppData\Roaming\npm\node_modules\appium\node_modules\appium-android-driver\lib\commands\general.js:372:10)
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/appium/device/system_bars [39m[31m500[39m [90m201 ms - 657[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/execute/sync[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/execute/sync[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{"script":"mobile:viewportRect","args":[]}[39m
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.execute() with args: ["mobile:viewportRect",[],"45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
 [35m[AndroidDriver][39m Executing native command 'mobile:viewportRect'
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/execute/sync [39m[33m404[39m [90m33 ms - 2548[39m
+=======
 [debug] [35m[WD Proxy][39m Matched '/window/current/size' to command name 'getWindowSize'
 [debug] [35m[WD Proxy][39m Proxying [GET /window/current/size] to [GET http://127.0.0.1:8260/wd/hub/session/11cd867d-bd4b-4ea9-b1af-386b525997bc/window/current/size] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":{"height":1280,"width":800}}
 [debug] [35m[W3C (45e5443e)][39m Responding to client with driver.execute() result: {"left":0,"top":32,"width":800,"height":1248}
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/execute/sync [39m[32m200[39m [90m36 ms - 55[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/appium/device/activate_app[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/appium/device/activate_app[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{"bundleId":"com.ivy.sd.png.asean.view"}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/appium/device/activate_app [39m[32m200[39m [90m1468 ms - 14[39m
+=======
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.activateApp() with args: ["com.ivy.sd.png.asean.view",null,null,null,"45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
 [debug] [35m[AndroidDriver][39m Activating 'com.ivy.sd.png.asean.view' with 'adb shell monkey -p com.ivy.sd.png.asean.view -c android.intent.category.LAUNCHER 1' command
 [debug] [35m[ADB][39m Running 'C:\Users\bharathi.a\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 5200149243802637 shell monkey -p com.ivy.sd.png.asean.view -c android.intent.category.LAUNCHER 1'
@@ -295,25 +395,47 @@
 [debug] [35m[AndroidDriver][39m ## Network stats: elapsed time=91ms (0ms mobile, 0ms wifi, 91ms not connected)
 [debug] [35m[W3C (45e5443e)][39m Responding to client with driver.activateApp() result: null
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/appium/device/activate_app [39m[32m200[39m [90m1463 ms - 14[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/source[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/source[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[W3C (35695311)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 13ee2908-6de7-4e70-9b41-467928934d49 with 35695311-261a-447e-b1f5-2bc85892d277
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/source [39m[32m200[39m [90m885 ms - 34956[39m
+=======
 [35m[W3C (45e5443e)][39m Driver proxy active, passing request on via HTTP proxy
 [debug] [35m[WD Proxy][39m Matched '/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/source' to command name 'getPageSource'
 [debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/source] to [GET http://127.0.0.1:8260/wd/hub/session/11cd867d-bd4b-4ea9-b1af-386b525997bc/source] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"800\" height=\"1280\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.ivy.sd.png.asean.view\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][800,1280]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.ivy.sd.png.asean.view\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][800,1280]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"...
 [35m[WD Proxy][39m Replacing sessionId 11cd867d-bd4b-4ea9-b1af-386b525997bc with 45e5443e-e91e-4fe9-bf85-208e01ebe9b2
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/source [39m[32m200[39m [90m1305 ms - 46842[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/screenshot[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/screenshot[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/screenshot [39m[32m200[39m [90m788 ms - 153960[39m
+=======
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.getScreenshot() with args: ["45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
 [debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
 [debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8260/wd/hub/session/11cd867d-bd4b-4ea9-b1af-386b525997bc/screenshot] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":"iVBORw0KGgoAAAANSUhEUgAAAyAAAAUACAYAAAC/DDZkAAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3Xd0VHXeBvBn+qT3CgkJEDqEKkgvUlVAQUHBFeyrIGt5LWvBtrv21bUra6G5Coh06b2HQBII\naSSk10nPTKa/fwwzZsgkpExmEvJ8zuEQ7tzyTeBe7nPvrwiCHtxgBBERERERkQMInV0AERERERF1\nHgwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwg\nRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERE\nRETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETk\nMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwg\nRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMGJnF0A3r3H9ArHh/8YBAOIzyzHtjf1O\nroiIiIiInK3DB5BJA4Og0xtxNLHI2aU4hUwiwkNTumNqdAiiQj3h7SaB0QhUKLVIzavEvvgC/LD/\nClQavbNLJSIiIiLq2AFkbN9A/LRiDPQGI+761yFcyChzdkkONX1ICN65fzDC/F3rfRbgKUOAZwBG\n9wnAw1N64PWf47HjXK4TqiQiIiIi+lOH7QMytm8g1j83FlKxEC5SEe4aFe7skhzqvnER+O7JUZbw\nYTQCybmV2B9fgAMJhUjOrYTRaFq3i58rvv7rLXhwUncnVkxERERE1EHfgNQNHwDwv6NX8cb/4pxc\nleMM7+mHfyyKtnz/FzLK8Or6...
 [debug] [35m[W3C (45e5443e)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAyAAAAUACAYAAAC/DDZkAAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3Xd0VHXeBvBn+qT3CgkJEDqEKkgvUlVAQUHBFeyrIGt5LWvBtrv21bUra6G5Coh06b2HQBII\naSSk10nPTKa/fwwzZsgkpExmEvJ8zuEQ7tzyTeBe7nPvrwiCHtxgBBERERERkQMInV0AERERERF1\nHgwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwg\nRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERE\nRETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETk\nMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMAwg\nRERERETkMAwgRERERETkMAwgRERERETkMAwgRERERETkMGJnF0A3r3H9ArHh/8YBAOIzyzHtjf1O\nroiIiIiInK3DB5BJA4Og0xtxNLHI2aU4hUwiwkNTumNqdAiiQj3h7SaB0QhUKLVIzavEvvgC/LD/\nClQavbNLJSIiIiLq2AFkbN9A/LRiDPQGI+761yFcyChzdkkONX1ICN65fzDC/F3rfRbgKUOAZwBG\n9wnAw1N64PWf47HjXK4TqiQiIiIi+lOH7QMytm8g1j83FlKxEC5SEe4aFe7skhzqvnER+O7JUZbw\nYTQCybmV2B9fgAMJhUjOrYTRaFq3i58rvv7rLXhwUncnVkxERERE1EHfgNQNHwDwv6NX8cb/4pxc\nleMM7+mHfyyKtnz/FzLK8Or6OMSkKazWG9rdF2/fH41hPXwhEQnx5sJBSM6rxKnkEmeUTURERETU\n8d6AjO...
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/screenshot [39m[32m200[39m [90m829 ms - 338402[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/source[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/elements[39m
 [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Fem Care' or . = 'Fem Care') and @resource-id = 'com.ivy.sd.png.asean.view:id/prod_level_tv']"}[39m
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.TextView' and (@text = 'Fem Care' or . = 'Fem Care') and @resource-id = 'com.ivy.sd.png.asean.view:id/prod_level_tv']","45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
@@ -326,23 +448,45 @@
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/elements [39m[32m200[39m [90m2222 ms - 139[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/source[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[W3C (35695311)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 13ee2908-6de7-4e70-9b41-467928934d49 with 35695311-261a-447e-b1f5-2bc85892d277
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/source [39m[32m200[39m [90m254 ms - 12303[39m
+=======
 [35m[W3C (45e5443e)][39m Driver proxy active, passing request on via HTTP proxy
 [debug] [35m[WD Proxy][39m Matched '/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/source' to command name 'getPageSource'
 [debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/source] to [GET http://127.0.0.1:8260/wd/hub/session/11cd867d-bd4b-4ea9-b1af-386b525997bc/source] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":"<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>\r\n<hierarchy index=\"0\" class=\"hierarchy\" rotation=\"0\" width=\"800\" height=\"1280\">\r\n  <android.widget.FrameLayout index=\"0\" package=\"com.ivy.sd.png.asean.view\" class=\"android.widget.FrameLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][800,1280]\" displayed=\"true\">\r\n    <android.widget.LinearLayout index=\"0\" package=\"com.ivy.sd.png.asean.view\" class=\"android.widget.LinearLayout\" text=\"\" checkable=\"false\" checked=\"false\" clickable=\"false\" enabled=\"true\" focusable=\"false\" focused=\"false\" long-clickable=\"false\" password=\"false\" scrollable=\"false\" selected=\"false\" bounds=\"[0,0][800,1280]\" displayed=\"true\">\r\n      <android.widget.FrameLayout index=\"0\" package=\"...
 [35m[WD Proxy][39m Replacing sessionId 11cd867d-bd4b-4ea9-b1af-386b525997bc with 45e5443e-e91e-4fe9-bf85-208e01ebe9b2
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/source [39m[32m200[39m [90m1237 ms - 78412[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/screenshot[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/screenshot[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/screenshot [39m[32m200[39m [90m654 ms - 33306[39m
+=======
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.getScreenshot() with args: ["45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
 [debug] [35m[WD Proxy][39m Matched '/screenshot' to command name 'getScreenshot'
 [debug] [35m[WD Proxy][39m Proxying [GET /screenshot] to [GET http://127.0.0.1:8260/wd/hub/session/11cd867d-bd4b-4ea9-b1af-386b525997bc/screenshot] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":"iVBORw0KGgoAAAANSUhEUgAAAyAAAAUACAYAAAC/DDZkAAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3Xd4W+XZBvBbW7Jkee+9V5az9ySEhIQQwoaQUCijUEYplALtRwejZbSUUVbZOxAIJAGSkEF2\nyHCW49jx3ntbtub3h2zZsiVbtmXZTu7fdXHhWEfH7zk6Oud93vG8goC1600gIiIiIiJyAeFwF4CI\niIiIiC4eDECIiIiIiMhlGIAQEREREZHLMAAhIiIiIiKXYQBCREREREQuwwCEiIiIiIhchgEIERER\nERG5DAMQIiIiIiJyGQYgRERERETkMgxAiIiIiIjIZRiAEBERERGRyzAAISIiIiIil2EAQkRERERE\nLsMAhIiIiIiIXIYBCBERERERuQwDECIiIiIichkGIERERERE5DIMQIiIiIiIyGUYgBARERERkcsw\nACEiIiIiIpdhAEJERERERC7DAISIiIiIiFyGAQgREREREbkMAxAiIiIiInIZBiBEREREROQyDECI\niIiIiMhlGIAQEREREZHLMAAhIiIiIiKXYQBCREREREQuIx7uAhAREZHzKKQiLEkNRkyQOwRO3O93\nvxThXHGDE/dIQ0koEOCS8YFYMTUU4yO9EOGnRFVDGzKKG7D9RCm+PliIumbtcBfTaf65diJuWRA9\nJPvedKQYt79yYEj2fbESBKxdbxruQhDRyLR8cggA882XiEY+hVSEnX+/FBH+SgBwWgBiAqDVGTDz\n0R9RXN3ipL3SUJmd5I9nb0lFbJC73W2aW/X4z+YMvLzpHIym0V8V3Pn3xUgK9RiSfZ8vbcTsP/44\nJPt2tqlxPli7MAYA8P6ObBzOqh7mEtk26gOQBWMDoDeYsCe9YriL4hIPrEjEo1el2H1dbzChuU2P\nkpoWnMqvwyd78nDwXJULS2if...
 [debug] [35m[W3C (45e5443e)][39m Responding to client with driver.getScreenshot() result: "iVBORw0KGgoAAAANSUhEUgAAAyAAAAUACAYAAAC/DDZkAAAABHNCSVQICAgIfAhkiAAAIABJREFU\neJzs3Xd4W+XZBvBbW7Jkee+9V5az9ySEhIQQwoaQUCijUEYplALtRwejZbSUUVbZOxAIJAGSkEF2\nyHCW49jx3ntbtub3h2zZsiVbtmXZTu7fdXHhWEfH7zk6Oud93vG8goC1600gIiIiIiJyAeFwF4CI\niIiIiC4eDECIiIiIiMhlGIAQEREREZHLMAAhIiIiIiKXYQBCREREREQuwwCEiIiIiIhchgEIERER\nERG5DAMQIiIiIiJyGQYgRERERETkMgxAiIiIiIjIZRiAEBERERGRyzAAISIiIiIil2EAQkRERERE\nLsMAhIiIiIiIXIYBCBERERERuQwDECIiIiIichkGIERERERE5DIMQIiIiIiIyGUYgBARERERkcsw\nACEiIiIiIpdhAEJERERERC7DAISIiIiIiFyGAQgREREREbkMAxAiIiIiInIZBiBEREREROQyDECI\niIiIiMhlGIAQEREREZHLMAAhIiIiIiKXYQBCREREREQuIx7uAhAREZHzKKQiLEkNRkyQOwRO3O93\nvxThXHGDE/dIQ0koEOCS8YFYMTUU4yO9EOGnRFVDGzKKG7D9RCm+PliIumbtcBfTaf65diJuWRA9\nJPvedKQYt79yYEj2fbESBKxdbxruQhDRyLR8cggA882XiEY+hVSEnX+/FBH+SgBwWgBiAqDVGTDz\n0R9RXN3ipL3SUJmd5I9nb0lFbJC73W2aW/X4z+YMvLzpHIym0V8V3Pn3xUgK9RiSfZ8vbcTsP/44\nJPt2tqlxPli7MAYA8P6ObBzOqh7mEtk26gOQBWMDoDeYsCe9YriL4hIPrEjEo1el2H1dbzChuU2P\nkpoWnMqvwyd78nDwXJULS2ifSi7GrxbFYOHYQMQEucPDTQIAaGjR4XxZI/akV+Dt7dmov4BaZEaz\nv9wwDn...
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/screenshot [39m[32m200[39m [90m738 ms - 244494[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (35695311)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 13ee2908-6de7-4e70-9b41-467928934d49 with 35695311-261a-447e-b1f5-2bc85892d277
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/source [39m[32m200[39m [90m286 ms - 15307[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/elements[39m
 [35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = '0' or . = '0') and @resource-id = 'com.ivy.sd.png.asean.view:id/piece_qty_edt']"}[39m
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.findElements() with args: ["xpath","//*[@class = 'android.widget.EditText' and (@text = '0' or . = '0') and @resource-id = 'com.ivy.sd.png.asean.view:id/piece_qty_edt']","45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
@@ -353,7 +497,13 @@
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":[{"ELEMENT":"00000000-0000-0537-ffff-ffff00000808","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0537-ffff-ffff00000808"},{"ELEMENT":"00000000-0000-0537-ffff-ffff00000826","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0537-ffff-ffff00000826"},{"ELEMENT":"00000000-0000-0537-ffff-ffff00000844","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0537-ffff-ffff00000844"}]}
 [debug] [35m[W3C (45e5443e)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0537-ffff-ffff00000808","ELEMENT":"00000000-0000-0537-ffff-ffff00000808"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0537-ffff-ffff00000826","ELEMENT":"00000000-0000-0537-ffff-ffff00000826"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0537-ffff-ffff00000844","ELEMENT":"00000000-0000-0537-ffff-ffff00000844"}]
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/elements [39m[32m200[39m [90m1246 ms - 395[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/screenshot [39m[32m200[39m [90m734 ms - 36734[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/elements[39m
 [35m[HTTP][39m [90m{"using":"id","value":"com.ivy.sd.png.asean.view:id/piece_qty_edt"}[39m
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.findElements() with args: ["id","com.ivy.sd.png.asean.view:id/piece_qty_edt","45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
@@ -364,7 +514,11 @@
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":[{"ELEMENT":"00000000-0000-0537-ffff-ffff00000808","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0537-ffff-ffff00000808"},{"ELEMENT":"00000000-0000-0537-ffff-ffff00000826","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0537-ffff-ffff00000826"},{"ELEMENT":"00000000-0000-0537-ffff-ffff00000844","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0537-ffff-ffff00000844"}]}
 [debug] [35m[W3C (45e5443e)][39m Responding to client with driver.findElements() result: [{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0537-ffff-ffff00000808","ELEMENT":"00000000-0000-0537-ffff-ffff00000808"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0537-ffff-ffff00000826","ELEMENT":"00000000-0000-0537-ffff-ffff00000826"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0537-ffff-ffff00000844","ELEMENT":"00000000-0000-0537-ffff-ffff00000844"}]
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/elements [39m[32m200[39m [90m269 ms - 395[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/source[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/elements[39m
 [35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.EditText\").text(\"0\").resourceId(\"com.ivy.sd.png.asean.view:id/piece_qty_edt\")"}[39m
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.findElements() with args: ["-android uiautomator","new UiSelector().className(\"android.widget.EditText\").text(\"0\").resourceId(\"com.ivy.sd.png.asean.view:id/piece_qty_edt\")","45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
@@ -396,23 +550,41 @@
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/elements [39m[32m200[39m [90m623 ms - 139[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/location[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[W3C (35695311)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 13ee2908-6de7-4e70-9b41-467928934d49 with 35695311-261a-447e-b1f5-2bc85892d277
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/source [39m[32m200[39m [90m1273 ms - 43020[39m
+=======
 [35m[W3C (45e5443e)][39m Driver proxy active, passing request on via HTTP proxy
 [debug] [35m[WD Proxy][39m Matched '/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/location' to command name 'getLocation'
 [debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/location] to [GET http://127.0.0.1:8260/wd/hub/session/11cd867d-bd4b-4ea9-b1af-386b525997bc/element/00000000-0000-0537-ffff-ffff00000808/location] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":{"x":540,"y":504}}
 [35m[WD Proxy][39m Replacing sessionId 11cd867d-bd4b-4ea9-b1af-386b525997bc with 45e5443e-e91e-4fe9-bf85-208e01ebe9b2
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/location [39m[32m200[39m [90m57 ms - 78[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/screenshot[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/size[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/screenshot [39m[32m200[39m [90m733 ms - 157092[39m
+=======
 [35m[W3C (45e5443e)][39m Driver proxy active, passing request on via HTTP proxy
 [debug] [35m[WD Proxy][39m Matched '/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/size' to command name 'getSize'
 [debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/size] to [GET http://127.0.0.1:8260/wd/hub/session/11cd867d-bd4b-4ea9-b1af-386b525997bc/element/00000000-0000-0537-ffff-ffff00000808/size] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":{"height":47,"width":80}}
 [35m[WD Proxy][39m Replacing sessionId 11cd867d-bd4b-4ea9-b1af-386b525997bc with 45e5443e-e91e-4fe9-bf85-208e01ebe9b2
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/size [39m[32m200[39m [90m38 ms - 85[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/source[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":1000}[39m
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,1000,"45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
@@ -433,23 +605,45 @@
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/elements [39m[32m200[39m [90m523 ms - 139[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/location[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[W3C (35695311)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 13ee2908-6de7-4e70-9b41-467928934d49 with 35695311-261a-447e-b1f5-2bc85892d277
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/source [39m[32m200[39m [90m662 ms - 43020[39m
+=======
 [35m[W3C (45e5443e)][39m Driver proxy active, passing request on via HTTP proxy
 [debug] [35m[WD Proxy][39m Matched '/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/location' to command name 'getLocation'
 [debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/location] to [GET http://127.0.0.1:8260/wd/hub/session/11cd867d-bd4b-4ea9-b1af-386b525997bc/element/00000000-0000-0537-ffff-ffff00000808/location] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":{"x":540,"y":504}}
 [35m[WD Proxy][39m Replacing sessionId 11cd867d-bd4b-4ea9-b1af-386b525997bc with 45e5443e-e91e-4fe9-bf85-208e01ebe9b2
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/location [39m[32m200[39m [90m38 ms - 78[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/screenshot[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/size[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/screenshot [39m[32m200[39m [90m667 ms - 157092[39m
+=======
 [35m[W3C (45e5443e)][39m Driver proxy active, passing request on via HTTP proxy
 [debug] [35m[WD Proxy][39m Matched '/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/size' to command name 'getSize'
 [debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/size] to [GET http://127.0.0.1:8260/wd/hub/session/11cd867d-bd4b-4ea9-b1af-386b525997bc/element/00000000-0000-0537-ffff-ffff00000808/size] with no body
 [debug] [35m[WD Proxy][39m Got response with status 200: {"sessionId":"11cd867d-bd4b-4ea9-b1af-386b525997bc","value":{"height":47,"width":80}}
 [35m[WD Proxy][39m Replacing sessionId 11cd867d-bd4b-4ea9-b1af-386b525997bc with 45e5443e-e91e-4fe9-bf85-208e01ebe9b2
 [35m[HTTP][39m [37m<-- GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/size [39m[32m200[39m [90m31 ms - 85[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m[39m
+<<<<<<< HEAD
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Collection' or . = 'Collection') and @resource-id = 'com.ivy.sd.png.asean.view:id/tv_toolbar_title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277/elements [39m[32m200[39m [90m843 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277[39m
+=======
 [35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/timeouts[39m
 [35m[HTTP][39m [90m{"implicit":1000}[39m
 [debug] [35m[W3C (45e5443e)][39m Calling AppiumDriver.timeouts() with args: [null,null,null,null,1000,"45e5443e-e91e-4fe9-bf85-208e01ebe9b2"]
@@ -470,7 +664,11 @@
 [35m[HTTP][39m [37m<-- POST /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/elements [39m[32m200[39m [90m509 ms - 139[39m
 [35m[HTTP][39m [90m[39m
 [35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/location[39m
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[HTTP][39m [90m{}[39m
+<<<<<<< HEAD
+[35m[Appium][39m Removing session 35695311-261a-447e-b1f5-2bc85892d277 from our master session list
+=======
 [35m[W3C (45e5443e)][39m Driver proxy active, passing request on via HTTP proxy
 [debug] [35m[WD Proxy][39m Matched '/wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/location' to command name 'getLocation'
 [debug] [35m[WD Proxy][39m Proxying [GET /wd/hub/session/45e5443e-e91e-4fe9-bf85-208e01ebe9b2/element/00000000-0000-0537-ffff-ffff00000808/location] to [GET http://127.0.0.1:8260/wd/hub/session/11cd867d-bd4b-4ea9-b1af-386b525997bc/element/00000000-0000-0537-ffff-ffff00000808/location] with no body
@@ -1229,5 +1427,11 @@
 [debug] [35m[ADB][39m Reconnecting adb (target offline)
 [debug] [35m[ADB][39m Running 'C:\Users\bharathi.a\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 5200149243802637 reconnect offline'
 [35m[UiAutomator2][39m Unable to remove system port forward: Could not find a connected Android device in 20111ms.
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+<<<<<<< HEAD
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/35695311-261a-447e-b1f5-2bc85892d277 [39m[32m200[39m [90m593 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+=======
 [debug] [35m[ADB][39m Running 'C:\Users\bharathi.a\AppData\Local\Android\Sdk\platform-tools\adb.exe -P 5037 -s 5200149243802637 shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git

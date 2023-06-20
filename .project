@@ -179,6 +179,18 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
+			<id>1687236936640</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1687236936660</id>
+=======
 			<id>1687237160472</id>
 			<name></name>
 			<type>10</type>
@@ -189,6 +201,7 @@
 		</filter>
 		<filter>
 			<id>1687237160514</id>
+>>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 			<name></name>
 			<type>6</type>
 			<matcher>

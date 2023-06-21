@@ -21,11 +21,47 @@ Mobile.startExistingApplication('com.ivy.sd.png.asean.view', FailureHandling.STO
 
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Returns/Retruns sub Brand Form'), 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.takeScreenshot()
 
 Mobile.sendKeys(findTestObject('Mobile/Store Acrivities/Returns/Invoice number textbox'), 'Test1')
 
 Mobile.tap(findTestObject('Mobile/Store Acrivities/Returns/Reason selection Dropdown'), 0)
 
-Mobile.sendKeys(findTestObject('Mobile/Store Acrivities/Returns/Pieces Count Text box'), '1')
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Returns/Reason For Return/Van Damage'), 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Returns/Pieces Count Text box'), 0)
+
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Returns/Footer Menu/1'), 0)
+
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Returns/Footer Menu/Done Button'), 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Returns/Next Button'), 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Returns/Save Button'), 0)
+
+Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Returns/Return saved Pop up/BCP Button'), 0)
 

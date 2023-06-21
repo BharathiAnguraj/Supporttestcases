@@ -110,48 +110,7 @@ if (Mobile.verifyMatch('0', txtPendingBillcount, false, FailureHandling.OPTIONAL
 
     Mobile.verifyElementVisible(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/CANCEL Button'), 0)
 
-    Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/Bank'), 0)
-
-    Mobile.setText(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/Bank'), 'Canara Bank', 0)
-
-    Mobile.takeScreenshot()
-
-    Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/select_Bank'), 0)
-
-    Mobile.takeScreenshot()
-
-    Mobile.hideKeyboard()
-
-    Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/Branch'), 0)
-
-    Mobile.setText(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/Branch'), 'Canara Bank', 0)
-
-    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.takeScreenshot()
-
-    Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/select_Branch'), 0)
-
-    Mobile.takeScreenshot()
-
-    Mobile.hideKeyboard()
-
-    Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/Reference Number'), 0)
-
-    Mobile.hideKeyboard()
-
-    Mobile.setText(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/Reference Number'), '1234567890', 
-        0)
-
-    Mobile.setText(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/Amount'), '10', 0)
-
-    Mobile.setText(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/MICR'), '12345', 0)
-
-    Mobile.takeScreenshot()
-
-    Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/APPLY Button'), 0)
-
-    Mobile.takeScreenshot()
+    Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/back_Icon'), 0)
 
     Mobile.comment('DD')
 
@@ -163,8 +122,6 @@ if (Mobile.verifyMatch('0', txtPendingBillcount, false, FailureHandling.OPTIONAL
 
     Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/back_Icon'), 0)
 
-    Mobile.takeScreenshot()
-
     Mobile.comment('Digital Payment')
 
     Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/PaymentMode_Digital Payment'), 0)
@@ -174,8 +131,6 @@ if (Mobile.verifyMatch('0', txtPendingBillcount, false, FailureHandling.OPTIONAL
     Mobile.takeScreenshot()
 
     Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/back_Icon'), 0)
-
-    Mobile.takeScreenshot()
 
     Mobile.comment('RTGS')
 
@@ -187,8 +142,6 @@ if (Mobile.verifyMatch('0', txtPendingBillcount, false, FailureHandling.OPTIONAL
 
     Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/back_Icon'), 0)
 
-    Mobile.takeScreenshot()
-
     Mobile.comment('TDS')
 
     Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/PaymentMode_TDS Charge'), 0)
@@ -198,8 +151,6 @@ if (Mobile.verifyMatch('0', txtPendingBillcount, false, FailureHandling.OPTIONAL
     Mobile.takeScreenshot()
 
     Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/back_Icon'), 0)
-
-    Mobile.takeScreenshot()
 
     Mobile.comment('UPI')
 
@@ -325,48 +276,7 @@ if (Mobile.verifyMatch('0', txtPendingBillcount, false, FailureHandling.OPTIONAL
 
     Mobile.verifyElementVisible(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/CANCEL Button'), 0)
 
-    Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/Bank'), 0)
-
-    Mobile.setText(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/Bank'), 'Canara Bank', 0)
-
-    Mobile.takeScreenshot()
-
-    Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/select_Bank'), 0)
-
-    Mobile.takeScreenshot()
-
-    Mobile.hideKeyboard()
-
-    Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/Branch'), 0)
-
-    Mobile.setText(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/Branch'), 'Canara Bank', 0)
-
-    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
-
-    Mobile.takeScreenshot()
-
-    Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/select_Branch'), 0)
-
-    Mobile.takeScreenshot()
-
-    Mobile.hideKeyboard()
-
-    Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/Reference Number'), 0)
-
-    Mobile.hideKeyboard()
-
-    Mobile.setText(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/Reference Number'), '1234567890', 
-        0)
-
-    Mobile.setText(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/Amount'), '10', 0)
-
-    Mobile.setText(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cheque/MICR'), '12345', 0)
-
-    Mobile.takeScreenshot()
-
-    Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/APPLY Button'), 0)
-
-    Mobile.takeScreenshot()
+    Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/back_Icon'), 0)
 
     Mobile.comment('DD')
 
@@ -378,8 +288,6 @@ if (Mobile.verifyMatch('0', txtPendingBillcount, false, FailureHandling.OPTIONAL
 
     Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/back_Icon'), 0)
 
-    Mobile.takeScreenshot()
-
     Mobile.comment('Digital Payment')
 
     Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/PaymentMode_Digital Payment'), 0)
@@ -389,8 +297,6 @@ if (Mobile.verifyMatch('0', txtPendingBillcount, false, FailureHandling.OPTIONAL
     Mobile.takeScreenshot()
 
     Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/back_Icon'), 0)
-
-    Mobile.takeScreenshot()
 
     Mobile.comment('RTGS')
 
@@ -402,8 +308,6 @@ if (Mobile.verifyMatch('0', txtPendingBillcount, false, FailureHandling.OPTIONAL
 
     Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/back_Icon'), 0)
 
-    Mobile.takeScreenshot()
-
     Mobile.comment('TDS')
 
     Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/PaymentMode_TDS Charge'), 0)
@@ -413,8 +317,6 @@ if (Mobile.verifyMatch('0', txtPendingBillcount, false, FailureHandling.OPTIONAL
     Mobile.takeScreenshot()
 
     Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/back_Icon'), 0)
-
-    Mobile.takeScreenshot()
 
     Mobile.comment('UPI')
 
@@ -447,8 +349,6 @@ if (Mobile.verifyMatch('0', txtPendingBillcount, false, FailureHandling.OPTIONAL
         Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
         Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/back_Icon'), 0)
-
-        Mobile.takeScreenshot()
     }
     
     Mobile.verifyElementVisible(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/SAVE button'), 0)
@@ -473,4 +373,6 @@ if (Mobile.verifyMatch('0', txtPendingBillcount, false, FailureHandling.OPTIONAL
 
     Mobile.takeScreenshot()
 }
+
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/back_Icon'), 0)
 

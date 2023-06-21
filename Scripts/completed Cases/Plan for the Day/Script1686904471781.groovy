@@ -22,6 +22,8 @@ Mobile.tap(findTestObject('Mobile/Main Navigation Button'), 0)
 
 Mobile.tap(findTestObject('Mobile/Menu/Plan for the Day'), 0)
 
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
 Mobile.takeScreenshot()
 
 Mobile.verifyElementHasAttribute(findTestObject('Mobile/Plan for the Day/Stores to visit count'), 'text', 0)

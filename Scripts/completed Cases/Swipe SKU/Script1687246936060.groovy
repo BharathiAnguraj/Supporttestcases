@@ -31,5 +31,5 @@ int endY = device_Height * 0.45
 
 Mobile.swipe(startX, endY, endX, startY)
 
-Mobile.delay(1)
+//Mobile.delay(1)
 

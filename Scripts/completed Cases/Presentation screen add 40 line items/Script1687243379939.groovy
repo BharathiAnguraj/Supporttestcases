@@ -180,6 +180,22 @@ Mobile.callTestCase(findTestCase('completed Cases/Swipe SKU'), [:], FailureHandl
 
 Mobile.sendKeys(findTestObject('Mobile/Store Acrivities/Presentation/SKU3_Pieces'), '1')
 
+Mobile.callTestCase(findTestCase('completed Cases/Swipe SKU'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.sendKeys(findTestObject('Mobile/Store Acrivities/Presentation/SKU3_Pieces'), '1')
+
+Mobile.callTestCase(findTestCase('completed Cases/Swipe SKU'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.sendKeys(findTestObject('Mobile/Store Acrivities/Presentation/SKU3_Pieces'), '1')
+
+Mobile.callTestCase(findTestCase('completed Cases/Swipe SKU'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.sendKeys(findTestObject('Mobile/Store Acrivities/Presentation/SKU3_Pieces'), '1')
+
+Mobile.callTestCase(findTestCase('completed Cases/Swipe SKU'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.sendKeys(findTestObject('Mobile/Store Acrivities/Presentation/SKU3_Pieces'), '1')
+
 Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot()
@@ -208,7 +224,7 @@ Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Mobile/Store Acrivities/Presentation/Focus Brand not achieved pop-up/YES Button'), 0)
 
-Mobile.delay(7, FailureHandling.STOP_ON_FAILURE)
+Mobile.delay(15, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.takeScreenshot()
 

@@ -58,3 +58,5 @@ Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Plan for Day T
 
 Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Plan for Day Tab/Smart Lines (Ach vs Total Size)'), 0)
 
+Mobile.tap(findTestObject('Mobile/Store Acrivities/Back Button'), 0)
+

@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startExistingApplication('com.ivy.sd.png.asean.view', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tap(findTestObject('Mobile/Store Acrivities/Returns/Retruns sub Brand Form'), 0)

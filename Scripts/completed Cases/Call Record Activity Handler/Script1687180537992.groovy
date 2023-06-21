@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-if (Mobile.verifyElementExist(findTestObject('Mobile/Store Acrivities/Call Record Activity/Call Record Activity Header'), 5, FailureHandling.OPTIONAL)) 
+if (Mobile.verifyElementExist(findTestObject('Mobile/Store Acrivities/Call Record Activity/Call Record Activity Header'), 15, FailureHandling.OPTIONAL)) 
 {
 	
 Mobile.takeScreenshot()

@@ -102,5 +102,5 @@ if (Mobile.verifyElementExist(findTestObject('Object Repository/Mobile/Login/Do 
 	Mobile.tap(findTestObject('Object Repository/Mobile/Login/YES Button'), 0)
 }
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Mobile/Attendance/Header Attendance'), 5)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Mobile/Attendance/Header Attendance'), 50)
 	

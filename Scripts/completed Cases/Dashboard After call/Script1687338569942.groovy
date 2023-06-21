@@ -6,7 +6,6 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword as MobileAbstractKeyword
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.testcase.TestCase as TestCase
 import com.kms.katalon.core.testdata.TestData as TestData
@@ -18,15 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-if (Mobile.verifyElementNotVisible(findTestObject('Object Repository/Mobile/Scheme Discount'), 0, FailureHandling.OPTIONAL)) {
-    Mobile.scrollToText('Scheme Discount', FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Mobile/Main Navigation Button'), 0)
 
-    Mobile.tap(findTestObject('Object Repository/Mobile/Scheme Discount'), 0)
+Mobile.tap(findTestObject('Mobile/Menu/Dashboard'), 0)
 
-    Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Mobile/Dashboard/Dashboard type'), 0)
 
-    Mobile.takeScreenshot()
-}
+Mobile.tap(findTestObject('Mobile/Dashboard/DAY'), 0)
 
-Mobile.tap(findTestObject('Mobile/Store Acrivities/Close and Confirm/Scheme Discount close button'), 0)
+Mobile.takeScreenshot()
+
+Mobile.tap(findTestObject('Mobile/Dashboard/Dashboard type'), 0)
+
+Mobile.tap(findTestObject('Mobile/Dashboard/MONTH'), 0)
+
+Mobile.takeScreenshot()
 

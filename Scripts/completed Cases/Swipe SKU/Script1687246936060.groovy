@@ -16,11 +16,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+
 device_Height = Mobile.getDeviceHeight()
+
 device_Width = Mobile.getDeviceWidth()
+
 int startX = device_Width / 2
+
 int endX = startX
+
 int startY = device_Height * 0.30
+
 int endY = device_Height * 0.45
+
 Mobile.swipe(startX, endY, endX, startY)
-Mobile.delay(2)
+
+Mobile.delay(1)
+

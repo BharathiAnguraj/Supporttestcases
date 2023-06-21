@@ -41,3 +41,7 @@ Mobile.callTestCase(findTestCase('completed Cases/Collection'), [:], FailureHand
 
 Mobile.callTestCase(findTestCase('completed Cases/Call Analysis'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.callTestCase(findTestCase('completed Cases/Dashboard After call'), [:], FailureHandling.STOP_ON_FAILURE)
+
+Mobile.callTestCase(findTestCase('completed Cases/Sync'), [:], FailureHandling.STOP_ON_FAILURE)
+

@@ -43,14 +43,6 @@ Mobile.verifyElementExist(findTestObject('Mobile/Store Acrivities/Call_Analysis/
 
 Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Mobile/Store Acrivities/Call_Analysis/Select Reason for no order'), 0)
-
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tap(findTestObject('Mobile/Store Acrivities/Call_Analysis/Reason_Wrong Number'), 0)
-
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
-
 Mobile.verifyElementExist(findTestObject('Mobile/Store Acrivities/Call_Analysis/Close Call Button'), 0)
 
 Mobile.tap(findTestObject('Mobile/Store Acrivities/Call_Analysis/Close Call Button'), 0)

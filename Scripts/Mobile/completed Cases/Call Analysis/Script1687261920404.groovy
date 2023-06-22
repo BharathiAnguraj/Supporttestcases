@@ -27,7 +27,7 @@ Mobile.takeScreenshot()
 
 Mobile.verifyElementVisible(findTestObject('Mobile/Store Acrivities/Call_Analysis/header_Call Analysis'), 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+ Mobile.takeScreenshot()
 
 Mobile.verifyElementVisible(findTestObject('Mobile/Store Acrivities/Call_Analysis/Value'), 0)
 
@@ -41,7 +41,7 @@ Mobile.verifyElementVisible(findTestObject('Mobile/Store Acrivities/Call_Analysi
 
 Mobile.verifyElementExist(findTestObject('Mobile/Store Acrivities/Call_Analysis/Total Smart Lines'), 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+ Mobile.takeScreenshot()
 
 Mobile.verifyElementExist(findTestObject('Mobile/Store Acrivities/Call_Analysis/Close Call Button'), 0)
 
@@ -49,7 +49,7 @@ Mobile.tap(findTestObject('Mobile/Store Acrivities/Call_Analysis/Close Call Butt
 
 Mobile.delay(0, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+ Mobile.takeScreenshot()
 
 Mobile.waitForElementPresent(findTestObject('Mobile/Store Acrivities/Call_Analysis/Pop Up/Do you want to close the call'), 
     0)
@@ -74,7 +74,7 @@ Mobile.waitForElementPresent(findTestObject('Mobile/Store Acrivities/Call_Analys
 Mobile.verifyElementVisible(findTestObject('Mobile/Store Acrivities/Call_Analysis/Pop Up/Sucess Popup/message_Successfully Uploaded'), 
     0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+ Mobile.takeScreenshot()
 
 Mobile.verifyElementVisible(findTestObject('Mobile/Store Acrivities/Call_Analysis/Pop Up/Sucess Popup/Button_OK'), 0)
 

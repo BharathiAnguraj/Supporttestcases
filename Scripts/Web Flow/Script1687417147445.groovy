@@ -21,3 +21,5 @@ Mobile.callTestCase(findTestCase('WEB/Launch Web Browser'), [:], FailureHandling
 
 Mobile.callTestCase(findTestCase('WEB/Branch User Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+Mobile.callTestCase(findTestCase('WEB/Navigations/Navigate to Collection'), [:], FailureHandling.STOP_ON_FAILURE)
+

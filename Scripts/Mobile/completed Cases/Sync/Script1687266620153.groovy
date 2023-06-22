@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.tap(findTestObject('Mobile/Main Navigation Button'), 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Mobile/Menu/Sync'), 0)
 
@@ -29,17 +29,17 @@ Mobile.verifyElementVisible(findTestObject('Mobile/Synchronization/title_Synchro
 
 Mobile.verifyElementExist(findTestObject('Mobile/Synchronization/title_Synchronization'), 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+ Mobile.takeScreenshot()
 
 Mobile.setText(findTestObject('Mobile/Synchronization/edit_Password'), GlobalVariable.dsePassword, 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+ Mobile.takeScreenshot()
 
 Mobile.verifyElementVisible(findTestObject('Mobile/Synchronization/button_SYNCHRONIZATION'), 0)
 
 Mobile.verifyElementExist(findTestObject('Mobile/Synchronization/button_SYNCHRONIZATION'), 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+ Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Mobile/Synchronization/button_SYNCHRONIZATION'), 0)
 
@@ -47,7 +47,7 @@ Mobile.delay(10, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.waitForElementPresent(findTestObject('Mobile/Synchronization/Popup/Data upload completed Successfully'), 0)
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+ Mobile.takeScreenshot()
 
 Mobile.verifyElementVisible(findTestObject('Mobile/Synchronization/Popup/Data upload completed Successfully'), 0)
 
@@ -55,7 +55,7 @@ Mobile.verifyElementExist(findTestObject('Mobile/Synchronization/Popup/Data uplo
 
 Mobile.verifyElementText(findTestObject('Mobile/Synchronization/Popup/Data upload completed Successfully'), 'Data upload completed Successfully.')
 
-Mobile.takeScreenshot('', FailureHandling.STOP_ON_FAILURE)
+ Mobile.takeScreenshot()
 
 Mobile.verifyElementVisible(findTestObject('Mobile/Synchronization/Popup/Close Icon'), 0)
 

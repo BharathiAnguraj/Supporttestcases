@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Date Picker</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5cf8bf7e-ddd8-494a-a71b-199ba437c3f4</testCaseGuid>
+   <variable>
+      <defaultValue>'Today'</defaultValue>
+      <description></description>
+      <id>0b532eb4-ce41-4324-ba82-692d5baa4567</id>
+      <masked>false</masked>
+      <name>DateValue</name>
+   </variable>
+</TestCaseEntity>

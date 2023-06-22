@@ -16,7 +16,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>branch user password</description>
-      <initValue>'Password1'</initValue>
+      <initValue>'password12'</initValue>
       <name>branchUserPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -45,7 +45,7 @@
       <name>Salesperson</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description></description>
+      <description>Retailer for Mobile transactions</description>
       <initValue>'APNA BAZAAR'</initValue>
       <name>MobileRetailer</name>
    </GlobalVariableEntity>
@@ -53,5 +53,30 @@
       <description></description>
       <initValue>''</initValue>
       <name>deliveryPerson</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Xpath Attribute text for Navigation</description>
+      <initValue>''</initValue>
+      <name>Attributetext</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Xpath Attribute title for Navigation</description>
+      <initValue>''</initValue>
+      <name>Attributetitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Date Picker Date</description>
+      <initValue>''</initValue>
+      <name>SsDate</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Date Picker Month</description>
+      <initValue>''</initValue>
+      <name>SsMonth</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Date Picket Year</description>
+      <initValue>''</initValue>
+      <name>SsYear</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -3,7 +3,6 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import javax.xml.bind.annotation.XmlElementDecl.GLOBAL as GLOBAL
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -18,11 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.sendKeys(findTestObject('Web/Login/UserName text box'), GlobalVariable.branchUser)
+Mobile.callTestCase(findTestCase('WEB/Launch Web Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Web/Login/Password Textbox'), GlobalVariable.branchUserPassword)
-
-WebUI.click(findTestObject('Web/Login/Login Button'))
-
-WebUI.waitForPageLoad(10)
+Mobile.callTestCase(findTestCase('WEB/Branch User Login'), [:], FailureHandling.STOP_ON_FAILURE)
 

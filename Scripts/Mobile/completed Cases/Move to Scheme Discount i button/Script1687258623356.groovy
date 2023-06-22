@@ -18,7 +18,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-if (Mobile.verifyElementNotVisible(findTestObject('Object Repository/Mobile/Scheme Discount'), 0, FailureHandling.OPTIONAL)) {
+if (Mobile.verifyElementNotVisible(findTestObject('Object Repository/Mobile/Scheme Discount'), 5, FailureHandling.OPTIONAL)) {
     Mobile.scrollToText('Scheme Discount', FailureHandling.STOP_ON_FAILURE)
 
     Mobile.tap(findTestObject('Object Repository/Mobile/Scheme Discount'), 0)

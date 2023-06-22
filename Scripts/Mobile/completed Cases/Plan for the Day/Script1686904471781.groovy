@@ -36,7 +36,39 @@ Mobile.tap(findTestObject('Mobile/Plan for the Day/Search Icon'), 0)
 
 Mobile.sendKeys(findTestObject('Mobile/Plan for the Day/Search bar'), GlobalVariable.MobileRetailer)
 
-Mobile.tap(findTestObject('Mobile/Plan for the Day/Retailer in search list'), 0)
+Mobile.hideKeyboard()
+
+if (Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Retailer in search list'), 5, FailureHandling.OPTIONAL)) {
+    Mobile.tap(findTestObject('Mobile/Plan for the Day/Retailer in search list'), 0)
+} else {
+    Mobile.tap(findTestObject('Mobile/Trade Coverage/Deviation/Deviation Button'), 0)
+
+    Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.tap(findTestObject('Mobile/Plan for the Day/Search Icon'), 0)
+
+    Mobile.sendKeys(findTestObject('Mobile/Plan for the Day/Search bar'), GlobalVariable.MobileRetailer)
+
+    Mobile.tap(findTestObject('Mobile/Plan for the Day/Retailer in search list'), 0)
+
+    Mobile.callTestCase(findTestCase('Mobile/completed Cases/Retailer contact KYC'), [:], FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.tap(findTestObject('Mobile/Trade Coverage/Deviation/Add To Plan Button'), 0)
+
+    Mobile.tap(findTestObject('Mobile/Trade Coverage/Deviation/Reason Holiday'), 0)
+
+    Mobile.tap(findTestObject('Mobile/Trade Coverage/Deviation/ADD Button'), 0)
+
+    Mobile.tap(findTestObject('Mobile/Trade Coverage/Deviation/OK Button'), 0)
+
+    Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+    Mobile.tap(findTestObject('Mobile/Plan for the Day/Search Icon'), 0)
+
+    Mobile.sendKeys(findTestObject('Mobile/Plan for the Day/Search bar'), GlobalVariable.MobileRetailer)
+
+    Mobile.tap(findTestObject('Mobile/Plan for the Day/Retailer in search list'), 0)
+}
 
 Mobile.callTestCase(findTestCase('Mobile/completed Cases/Retailer contact KYC'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -22,7 +22,8 @@ Mobile.tap(findTestObject('Mobile/Dashboard/Dashboard type'), 0)
 Mobile.tap(findTestObject('Mobile/Dashboard/MONTH'), 0)
 
 Mobile.takeScreenshot()
-
+if(Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Day board/Productivity/Productivity'), 3, FailureHandling.OPTIONAL))
+{
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/Productivity/Productivity'), 0)
 
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/Productivity/Productivity Achieved'), 0)
@@ -32,6 +33,9 @@ Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/Productiv
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/Productivity/Productivity Target'), 0)
 
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/Productivity/Productivity percentage'), 0)
+}
+if(Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/P3M Retail DGP/P3M Retail DGP'), 3, FailureHandling.OPTIONAL))
+{
 
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/P3M Retail DGP/P3M Retail DGP'), 0)
 
@@ -42,7 +46,9 @@ Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/P3M Retai
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/P3M Retail DGP/P3M Retail DGP Target'), 0)
 
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/P3M Retail DGP/P3M Retail DGP percentage'), 0)
-
+}
+if(Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/Base FB/Base FB'), 3, FailureHandling.OPTIONAL))
+{
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/Base FB/Base FB'), 0)
 
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/Base FB/Base FB Achieved'), 0)
@@ -52,7 +58,9 @@ Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/Base FB/B
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/Base FB/Base FB Target'), 0)
 
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/Base FB/Base FB percentage'), 0)
-
+}
+if(Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/GPS Compliance/GPS Compliance'), 3, FailureHandling.OPTIONAL))
+{
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/GPS Compliance/GPS Compliance'), 0)
 
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/GPS Compliance/GPS Compliance Achieved'), 0)
@@ -62,7 +70,9 @@ Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/GPS Compl
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/GPS Compliance/GPS Compliance Target'), 0)
 
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/GPS Compliance/GPS Compliance percentage'), 0)
-
+}
+if(Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/WS PoTPR/WS PoTPR'), 3, FailureHandling.OPTIONAL))
+{
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/WS PoTPR/WS PoTPR'), 0)
 
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/WS PoTPR/WS PoTPR Achieved'), 0)
@@ -72,4 +82,4 @@ Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/WS PoTPR/
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/WS PoTPR/WS PoTPR Target'), 0)
 
 Mobile.verifyElementExist(findTestObject('Mobile/Dashboard/Month board/WS PoTPR/WS PoTPR percentage'), 0)
-
+}

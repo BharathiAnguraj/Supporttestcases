@@ -23,3 +23,11 @@ Mobile.callTestCase(findTestCase('WEB/Re usables/Branch User Login'), [:], Failu
 
 Mobile.callTestCase(findTestCase('WEB/Re usables/Navigations/Navigate to Sales Order Upload'), [:], FailureHandling.STOP_ON_FAILURE)
 
+if(WebUI.verifyElementPresent(findTestObject('Web/Sales Order Upload/Click to upload new File'), 0, FailureHandling.OPTIONAL))
+{
+
+	WebUI.click(findTestObject('Web/Sales Order Upload/Click to upload new File'))
+	WebUI.acceptAlert()
+}
+
+

@@ -22,6 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
+      <webElementGuid>57eb503a-adeb-4ae1-aab8-231c08f19f64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,6 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>waves-effect waves-cyan collapsible-header</value>
+      <webElementGuid>5e8316ab-7701-4ffb-a306-f3f9898b0caf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,6 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>#</value>
+      <webElementGuid>6cd3a54c-d4b3-492b-b3fd-8c7ff147f05a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -43,6 +46,7 @@
       <name>title</name>
       <type>Main</type>
       <value>${GlobalVariable.mAttributetitle}</value>
+      <webElementGuid>16361180-d768-47fe-a4b1-1bccf07e7a11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,6 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>${GlobalVariable.mAttributetext}</value>
+      <webElementGuid>0a8b67d9-924e-47cc-b7c8-f20f0c3b8271</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,6 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;collapsibleMenuContainer&quot;)/li[@class=&quot;bold active&quot;]/div[@class=&quot;collapsible-body&quot;]/ul[@class=&quot;collapsible collapsible-accordion&quot;]/li[@class=&quot;bold&quot;]/a[@class=&quot;waves-effect waves-cyan collapsible-header&quot;]</value>
+      <webElementGuid>9bb6c090-244c-45e2-bc17-c4aa5e8b678c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -64,6 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='collapsibleMenuContainer']/li[4]/div/ul/li/a</value>
+      <webElementGuid>5ac59cbf-aa14-4a9d-8d5c-10354ebbf754</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,6 +78,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>(//a[contains(text(),'Receivables')])[2]</value>
+      <webElementGuid>e5e21c42-2ef0-4012-9524-88ab1b8c886a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::a[36]</value>
+      <webElementGuid>3700add5-003b-4413-b4ce-23d060b3e46d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='en'])[1]/following::a[43]</value>
+      <webElementGuid>50c218d4-1160-41a9-af4c-75be7bd82b74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,6 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/preceding::a[123]</value>
+      <webElementGuid>bff70270-dd1b-4468-85aa-1fb71a6f6320</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +110,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '#')])[41]</value>
+      <webElementGuid>4da5b6a1-3626-4bcc-88c8-820f46a55f6f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,5 +118,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/div/ul/li/a</value>
+      <webElementGuid>a1c5748f-7529-470f-a963-7e2184212db0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

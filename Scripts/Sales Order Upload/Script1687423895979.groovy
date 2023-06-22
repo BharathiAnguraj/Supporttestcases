@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('WEB/Launch Web Browser'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('WEB/Re usables/Launch Web Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('WEB/Branch User Login'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('WEB/Re usables/Branch User Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('WEB/Navigations/Navigate to Sales Order Upload'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('WEB/Re usables/Navigations/Navigate to Sales Order Upload'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Web Flow</name>
+   <name>Sales Order Upload</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>8e19a7d1-29e2-494e-8ec1-34527ef13693</testCaseGuid>

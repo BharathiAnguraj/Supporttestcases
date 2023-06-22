@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Sales Return Without invoice</name>
+   <name>Sales Return Without Reference</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d9398eac-5ffa-4955-b82a-3e3de0cf1378</testCaseGuid>

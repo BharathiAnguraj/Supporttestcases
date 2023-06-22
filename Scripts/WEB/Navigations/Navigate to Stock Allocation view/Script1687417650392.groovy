@@ -17,6 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('WEB/Navigations/Re_Usables/IVYNavigation'), [('Navigation') : 'Transactions;Receivables;Collections;Collections'], 
+WebUI.callTestCase(findTestCase('WEB/Navigations/Re_Usables/IVYNavigation'), [('Navigation') : 'Transactions;Receivables;Orders;View Allocation [Queue]'], 
     FailureHandling.STOP_ON_FAILURE)
+
+
 

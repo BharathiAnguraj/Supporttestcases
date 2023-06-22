@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Sales Return with Invoice</name>
+   <name>Sales Return with Reference</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>382414bc-9026-4419-b647-d290bf260259</testCaseGuid>

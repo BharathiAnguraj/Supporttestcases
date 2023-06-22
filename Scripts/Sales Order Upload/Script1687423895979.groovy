@@ -42,3 +42,7 @@ WebUI.uploadFile(findTestObject('Web/Sales Order Upload/Upload File'), dirName +
 
 WebUI.click(findTestObject('Web/Sales Order Upload/Continue Button'))
 
+WebUI.delay(2)
+
+Mobile.checkElement(findTestObject(null), 0)
+

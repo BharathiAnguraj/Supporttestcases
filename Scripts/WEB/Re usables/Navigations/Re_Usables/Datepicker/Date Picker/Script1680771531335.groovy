@@ -1,5 +1,3 @@
-
-
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -21,44 +19,42 @@ import java.text.SimpleDateFormat as SimpleDateFormat
 import java.util.Date as Date
 
 if (DateValue == 'Today') {
-   DateFormat dateFormat = new SimpleDateFormat('dd-MMM-yyyy')
+    DateFormat dateFormat = new SimpleDateFormat('dd-MMM-yyyy')
 
-   Date date = new Date()
+    Date date = new Date()
 
-   String today = dateFormat.format(date)
+    String today = dateFormat.format(date)
 
-   println(today)
+    println(today)
 
-   DateValue = today
+    DateValue = today
 }
 
 String[] sDate = DateValue.split('-')
 
 println(((((sDate[0]) + ';') + (sDate[1])) + ';') + (sDate[2]))
 
-String day=sDate[0]
+String day = sDate[0]
 
-println day.substring(0)
-println day.charAt(1)
+println(day.substring(0))
 
-if (day.startsWith("0")==true)
-{
-GlobalVariable.msDate = day.charAt(1)
+println(day.charAt(1))
+
+if (day.startsWith('0') == true) {
+    GlobalVariable.date = day.charAt(1)
+} else {
+    GlobalVariable.date = (sDate[0])
 }
 
-else
-{
-GlobalVariable.msDate = (sDate[0])
-}
+GlobalVariable.month = (sDate[1])
 
+GlobalVariable.year = (sDate[2])
 
-GlobalVariable.msMonth = (sDate[1])
-GlobalVariable.msYear = (sDate[2])
-
-WebUI.click(findTestObject('Phase_2/AMadhu/DatePick/Page_IvyDMS/Year_Option'))
+WebUI.click(findTestObject('Web/Calendar/Year_Option'))
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Phase_2/AMadhu/DatePick/Page_IvyDMS/Month_Option'))
+WebUI.click(findTestObject('Web/Calendar/Month_Option'))
 
-WebUI.click(findTestObject('Phase_2/AMadhu/DatePick/Page_IvyDMS/Date'))
+WebUI.click(findTestObject('Web/Calendar/Date'))
+

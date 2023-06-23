@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Date</name>
+   <tag></tag>
+   <elementGuidId>e3b7577b-f51f-4838-8bfc-9029b1ca34af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(contains(text(), '${GlobalVariable.date}') or contains(., '${GlobalVariable.date}')) and @ref_element = 'Object Repository/Web/Frame/Main Frame']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>dda9a8c1-91de-4233-9254-23a7b19dd555</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${GlobalVariable.date}</value>
+      <webElementGuid>d00be5e5-2258-4eb7-94df-80b2ead8523e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Web/Frame/Main Frame</value>
+      <webElementGuid>e4904cda-05d6-465c-9a5c-47bc850f1a19</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

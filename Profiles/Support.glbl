@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
+      <initValue>'TNPKL_MS115 - Himmat Singh'</initValue>
       <name>Salesperson</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -67,16 +67,16 @@
    <GlobalVariableEntity>
       <description>Date Picker Date</description>
       <initValue>''</initValue>
-      <name>SsDate</name>
+      <name>date</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Date Picker Month</description>
       <initValue>''</initValue>
-      <name>SsMonth</name>
+      <name>month</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Date Picket Year</description>
       <initValue>''</initValue>
-      <name>SsYear</name>
+      <name>year</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

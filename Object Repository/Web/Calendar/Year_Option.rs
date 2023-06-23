@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Year_Option</name>
+   <tag></tag>
+   <elementGuidId>1d3f9b17-cb0d-4b9e-9085-ab62e680ec67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//option[(text() = '${GlobalVariable.year}' or . = '${GlobalVariable.year}') and @ref_element = 'Object Repository/Web/Frame/Main Frame']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>option</value>
+      <webElementGuid>e6d504f9-dc76-40a3-a561-a10b6922f520</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>2021</value>
+      <webElementGuid>5718dbb2-8174-4551-a591-7acc565160ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${GlobalVariable.year}</value>
+      <webElementGuid>2c91c920-70ff-470c-8f06-d53a733ff8a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Web/Frame/Main Frame</value>
+      <webElementGuid>8babc4fd-f4f2-482c-9ff9-f6bd10ea343b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

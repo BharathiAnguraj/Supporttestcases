@@ -21,6 +21,9 @@ import com.kms.katalon.core.webui.driver.DriverFactory
 import internal.GlobalVariable
 
 String driverpath=System.getProperty('user.dir')+"\\WebDriver\\chromedriver.exe"
+
+println driverpath
+
 System.setProperty('webdriver.chrome.driver', driverpath)
 
 WebDriver driver = new ChromeDriver()

@@ -4,6 +4,7 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -23,11 +24,25 @@ Mobile.callTestCase(findTestCase('WEB/Re usables/Branch User Login'), [:], Failu
 
 Mobile.callTestCase(findTestCase('WEB/Re usables/Navigations/Navigate to Sales Order Upload'), [:], FailureHandling.STOP_ON_FAILURE)
 
-if(WebUI.verifyElementPresent(findTestObject('Web/Sales Order Upload/Click to upload new File'), 0, FailureHandling.OPTIONAL))
-{
+if (WebUI.verifyElementPresent(findTestObject('Web/Sales Order Upload/Click to upload new File'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Web/Sales Order Upload/Click to upload new File'))
 
-	WebUI.click(findTestObject('Web/Sales Order Upload/Click to upload new File'))
-	WebUI.acceptAlert()
+    WebUI.acceptAlert()
+
+    WebUI.switchToDefaultContent()
 }
 
+WebUI.delay(10)
+
+String dirName = RunConfiguration.getProjectDir()
+
+dirName = dirName.replace('/', '\\\\')
+
+WebUI.uploadFile(findTestObject('Web/Sales Order Upload/Upload File'), dirName + '\\File Upload\\Sales_Order_Records.xls')
+
+WebUI.click(findTestObject('Web/Sales Order Upload/Continue Button'))
+
+WebUI.delay(2)
+
+Mobile.checkElement(findTestObject(null), 0)
 

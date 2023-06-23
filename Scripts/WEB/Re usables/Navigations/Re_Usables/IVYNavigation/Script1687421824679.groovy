@@ -30,7 +30,7 @@ String[] Nav = sNavigation.split(';')
 println(Nav.size())
 
 for (def index : (0..Nav.size() - 1)) {
-	WebUI.delay(1)
+	//WebUI.delay(1)
 
 	GlobalVariable.Attributetext = (Nav[index])
 

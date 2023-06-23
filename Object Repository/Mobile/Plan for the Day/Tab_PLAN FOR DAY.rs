@@ -3,16 +3,16 @@
    <description></description>
    <name>Tab_PLAN FOR DAY</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>27bc54ff-ab33-49c9-bb3a-ba90fce6dcbc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>befb6bba-f08f-40fc-84e0-78b21f3556c4</webElementGuid>
+      <webElementGuid>2fdf0745-be6b-415a-8b5d-c813942004b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>98552471-add2-4b24-bfa3-7009bbb9090f</webElementGuid>
+      <webElementGuid>0f407110-98d0-42a8-91f3-f3d8f3a331e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <name>text</name>
       <type>Main</type>
       <value>PLAN FOR DAY</value>
-      <webElementGuid>d219c187-a233-4609-89a7-0083a1822f64</webElementGuid>
+      <webElementGuid>2aa260af-bdc3-422b-9c41-58882328be58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.ivy.sd.png.asean.view</value>
-      <webElementGuid>2e38d192-e20f-4b40-8d2a-4f9433e1ab99</webElementGuid>
+      <webElementGuid>97cee923-82d6-4d44-9d24-71011e404e0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>17c02ed1-1e30-4b75-8f2f-18d0b0e37a4d</webElementGuid>
+      <webElementGuid>bd5ab7ef-daf8-428c-a0f1-1e409904749b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>58074492-7465-4a29-bf0e-0006a0d98809</webElementGuid>
+      <webElementGuid>48af8f5e-2819-46ba-a0fd-8725d2bf11e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>56fbc97f-c560-426c-a93d-45ad16a09a00</webElementGuid>
+      <webElementGuid>8c2de1dc-5cb6-4a56-988d-b04452dc7f17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4f3ec39a-fe23-4993-acad-fb3ba3876787</webElementGuid>
+      <webElementGuid>a8cc8bfa-8837-478d-a827-a961fb343cbe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>67c7b8da-612f-485c-87da-60fd3d79b0ea</webElementGuid>
+      <webElementGuid>3ae614d6-8cbc-4c79-9a7f-f0059728ca1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e79ef05f-e7a2-4fee-81d5-d7b2b7ae6ac1</webElementGuid>
+      <webElementGuid>7e5ed709-e947-4c11-ae21-46de516491f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>318d238b-3b1d-405b-858f-b315bb015f4f</webElementGuid>
+      <webElementGuid>634fc7bb-096c-4472-b28d-312ded09de0b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b351500f-2cf1-4d59-985b-510a63c1d9e0</webElementGuid>
+      <webElementGuid>aabd954a-219d-48bd-a8cc-8acfd5d83fb3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a28bce5d-b33f-428b-8497-07efb98d3307</webElementGuid>
+      <webElementGuid>dd77c0c5-ca11-4d09-ba14-092160565c3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>277288e9-daf9-4c95-9699-ba21817ab8d4</webElementGuid>
+      <webElementGuid>4eb82496-f523-4049-b681-b49eb7dcdaeb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,7 +124,7 @@
       <name>x</name>
       <type>Main</type>
       <value>597</value>
-      <webElementGuid>4f61bc75-1930-4f24-9df5-e5678cb9ce1f</webElementGuid>
+      <webElementGuid>47b37929-4492-436f-94b1-6fc3a1ed54f4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -132,7 +132,7 @@
       <name>y</name>
       <type>Main</type>
       <value>443</value>
-      <webElementGuid>4aee0570-9f0e-4bff-872b-f61d141c132d</webElementGuid>
+      <webElementGuid>3c9dfb8f-fc82-4ae1-872a-6ea5ed9bd5f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -140,7 +140,7 @@
       <name>width</name>
       <type>Main</type>
       <value>142</value>
-      <webElementGuid>d2a6093f-0fd3-48e6-8c42-0f5850831495</webElementGuid>
+      <webElementGuid>d03518ce-e1f1-4a31-851f-79ec2fa59abb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -148,7 +148,7 @@
       <name>height</name>
       <type>Main</type>
       <value>29</value>
-      <webElementGuid>299d98ab-e2b6-47e1-8fcf-0bce549adba7</webElementGuid>
+      <webElementGuid>08f1d0e1-43c1-4df1-88ef-9a6f3d5db7e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -156,7 +156,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[597,443][739,472]</value>
-      <webElementGuid>2764a916-caac-4131-80bb-17121d442177</webElementGuid>
+      <webElementGuid>285a3834-d9d8-42cf-a847-58112c461805</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -164,7 +164,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>b8bb77c9-82f6-4ac8-9eea-3481b77ca7af</webElementGuid>
+      <webElementGuid>a940b8f4-9750-4740-9af2-54052389ca0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,8 +172,8 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[2]/android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/androidx.appcompat.app.a$c[3]/android.widget.TextView[1]</value>
-      <webElementGuid>cbb4b47e-c2ba-40c1-9317-85641cd2651d</webElementGuid>
+      <webElementGuid>d8b0ae48-5222-47fd-be51-ff40567db165</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'PLAN FOR DAY' or . = 'PLAN FOR DAY')]</locator>
+   <locator>//*[(@text = 'PLAN FOR DAY' or . = 'PLAN FOR DAY')]</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>Support</name>
+   <name>Cloud 03</name>
    <tag></tag>
-   <defaultProfile>true</defaultProfile>
+   <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>web Application URL</description>
       <initValue>'https://cloud01-in.ivydms.com/web/DMS'</initValue>

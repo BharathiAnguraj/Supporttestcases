@@ -17,9 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.callTestCase(findTestCase('WEB/Re usables/Launch Web Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.callTestCase(findTestCase('WEB/Re usables/Branch User Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.refresh()
 
 Mobile.callTestCase(findTestCase('WEB/Re usables/Navigations/Navigate to Sales Order View'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -31,7 +29,7 @@ WebUI.setText(findTestObject('Web/Sales Order View/input_Search Retailer'), Glob
 
 WebUI.click(findTestObject('Web/Sales Order View/select_SalesPerson'))
 
-WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Web/Sales Order View/button_Search'))
 

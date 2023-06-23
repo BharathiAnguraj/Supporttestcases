@@ -38,11 +38,26 @@ String dirName = RunConfiguration.getProjectDir()
 
 dirName = dirName.replace('/', '\\\\')
 
-WebUI.uploadFile(findTestObject('Web/Sales Order Upload/Upload File'), dirName + '\\File Upload\\Sales_Order_Records.xls')
+WebUI.uploadFile(findTestObject('Web/Sales Order Upload/Upload File'), dirName + '\\File Upload\\Sales_Order_Template_C01.xls')
 
 WebUI.click(findTestObject('Web/Sales Order Upload/Continue Button'))
 
-WebUI.delay(2)
+WebUI.takeScreenshot()
 
-Mobile.checkElement(findTestObject(null), 0)
+WebUI.waitForElementVisible(findTestObject('Web/Sales Order Upload/Status Button'), 30)
 
+WebUI.click(findTestObject('Web/Sales Order Upload/Status Button'))
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Web/Sales Order Upload/Success Records Radio Button'))
+
+WebUI.click(findTestObject('Web/Sales Order Upload/Upload Data button'))
+
+WebUI.acceptAlert()
+
+WebUI.switchToDefaultContent()
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementPresent(findTestObject('Web/Sales Order Upload/Upload success message'), 0)

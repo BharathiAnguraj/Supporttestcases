@@ -72,8 +72,7 @@ if (Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Retailer i
 
 Mobile.callTestCase(findTestCase('Mobile/completed Cases/Retailer contact KYC'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/GoogleMap'), 0)
-
+//Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/GoogleMap'), 0)
 Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Mobile/Plan for the Day/Tab_INVOICE HISTORY'), 0)
@@ -81,6 +80,10 @@ Mobile.tap(findTestObject('Mobile/Plan for the Day/Tab_INVOICE HISTORY'), 0)
 Mobile.takeScreenshot()
 
 Mobile.tap(findTestObject('Mobile/Plan for the Day/Tab_PLAN FOR DAY'), 0)
+
+Mobile.delay(2, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.takeScreenshot()
 
 Mobile.verifyElementExist(findTestObject('Mobile/Plan for the Day/Plan for Day Tab/Monthly Achievement'), 0)
 

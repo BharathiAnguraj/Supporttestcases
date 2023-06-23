@@ -3,16 +3,16 @@
    <description></description>
    <name>Tab_INVOICE HISTORY</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>fce3ccbc-04e6-44ea-b3ad-b0ef9b034897</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>9730ef1d-0598-4936-b831-0a6c4ffc3c32</webElementGuid>
+      <webElementGuid>9175a402-17fd-4c2d-8470-e2f030f2d20e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>9a6b3e9a-06ba-4eea-afeb-a2df96f16bcc</webElementGuid>
+      <webElementGuid>84505573-0bc2-40d7-966b-edc4df6ef453</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <name>text</name>
       <type>Main</type>
       <value>INVOICE HISTORY</value>
-      <webElementGuid>12fbe1ad-851b-4c58-bb1f-f8dc117822c5</webElementGuid>
+      <webElementGuid>928ed4f3-1a25-472a-be1b-9f294a5b26ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,7 +36,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.ivy.sd.png.asean.view</value>
-      <webElementGuid>fababf5b-37f3-4f22-8757-9b2d1f525197</webElementGuid>
+      <webElementGuid>79991aca-dc2c-422c-ad54-83f7820bd01c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>d3597142-f04a-4d37-b6ef-2616bce726d2</webElementGuid>
+      <webElementGuid>22278d97-e2a6-424f-bb65-28d47f327d97</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6fa45262-8935-4a89-9d10-2955dbfb0f15</webElementGuid>
+      <webElementGuid>17eb8964-ef47-4c8c-836d-dbab880d4216</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>06e2713b-f850-4b2b-ba01-ceeb924555bd</webElementGuid>
+      <webElementGuid>342c5cb7-2d4e-42ab-a622-2b45772e4cca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>d6c1f895-6638-4c0e-8581-53ceb4f40988</webElementGuid>
+      <webElementGuid>f06f19e7-7815-4ed6-b823-207514fdc803</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4171a465-d5cc-4a73-837a-09687570c006</webElementGuid>
+      <webElementGuid>cd52eaae-4b33-437d-ae73-3f49373ee53b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0b13496b-ec8c-43ae-bc12-11ca7ac1bf04</webElementGuid>
+      <webElementGuid>3dccf3a1-4d70-438e-b523-f248f175cd43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>956f1f62-cf44-4073-96d1-6bd908e70b29</webElementGuid>
+      <webElementGuid>18537fe4-8a65-4c0c-837b-884586395984</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0463f31e-227c-4b2a-a597-adc36162ef4c</webElementGuid>
+      <webElementGuid>1ad14c57-c822-449d-a31c-a8cdfdfae089</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f2faed23-9557-4d86-b8d8-1cf0e88bfe74</webElementGuid>
+      <webElementGuid>8e20422e-234a-4bb8-a720-76bd272e5ee0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>1a5e8720-26c4-452b-8e57-1c0d1f283fa7</webElementGuid>
+      <webElementGuid>6c8374e7-aeba-4730-9aa2-4910329185ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,7 +124,7 @@
       <name>x</name>
       <type>Main</type>
       <value>313</value>
-      <webElementGuid>de0bc338-cbbb-4efb-bc58-3b450b295d33</webElementGuid>
+      <webElementGuid>47e95f00-b511-4ded-aa7f-858fdbe0bd2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -132,7 +132,7 @@
       <name>y</name>
       <type>Main</type>
       <value>443</value>
-      <webElementGuid>229af926-33e4-4d44-98b9-0ad3d059e064</webElementGuid>
+      <webElementGuid>3cd43d84-f534-4b13-aca5-91ae78729e47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -140,7 +140,7 @@
       <name>width</name>
       <type>Main</type>
       <value>175</value>
-      <webElementGuid>07bae846-3d95-4466-a77d-e2b7bb6d571f</webElementGuid>
+      <webElementGuid>11ecae01-5071-4222-9d7b-2b674074aa27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -148,7 +148,7 @@
       <name>height</name>
       <type>Main</type>
       <value>29</value>
-      <webElementGuid>035457b1-6135-4ac0-811a-444c9550e676</webElementGuid>
+      <webElementGuid>1c31fb3d-50f7-42bf-bf81-c0f39fe1ef0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -156,7 +156,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[313,443][488,472]</value>
-      <webElementGuid>4664ea4b-c586-43c1-8b3c-c502ec4efca7</webElementGuid>
+      <webElementGuid>36286ae9-74f3-4061-a8a7-766f84661381</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -164,7 +164,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c9d8b823-2e59-4c34-a52c-74903884bc71</webElementGuid>
+      <webElementGuid>ea23614b-8990-4218-8a77-998acff3cb58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,8 +172,8 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[2]/android.widget.HorizontalScrollView[1]/android.widget.LinearLayout[1]/androidx.appcompat.app.a$c[2]/android.widget.TextView[1]</value>
-      <webElementGuid>6979a03f-b840-4e67-b459-4a8cc2eff337</webElementGuid>
+      <webElementGuid>fc849df0-c574-47cd-8f8f-7030bfcb1653</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'INVOICE HISTORY' or . = 'INVOICE HISTORY')]</locator>
+   <locator>//*[(@text = 'INVOICE HISTORY' or . = 'INVOICE HISTORY')]</locator>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>
 </MobileElementEntity>

@@ -45,25 +45,6 @@ WebUI.click(findTestObject('Web/Sales Order Upload/Continue Button'))
 WebUI.takeScreenshot()
 
 WebUI.waitForElementVisible(findTestObject('Web/Sales Order Upload/Status Button'), 30)
-<<<<<<< HEAD
-
-WebUI.click(findTestObject('Web/Sales Order Upload/Status Button'))
-
-WebUI.takeScreenshot()
-
-WebUI.click(findTestObject('Web/Sales Order Upload/Success Records Radio Button'))
-
-WebUI.click(findTestObject('Web/Sales Order Upload/Upload Data button'))
-
-WebUI.acceptAlert()
-
-WebUI.switchToDefaultContent()
-
-WebUI.takeScreenshot()
-
-WebUI.verifyElementPresent(findTestObject('Web/Sales Order Upload/Upload success message'), 0)
-=======
->>>>>>> branch 'main' of https://github.com/BharathiAnguraj/Supporttestcases.git
 
 WebUI.click(findTestObject('Web/Sales Order Upload/Status Button'))
 

@@ -39,6 +39,10 @@ WebUI.click(findTestObject('Web/Sales Order View/Click to SO Status'))
 
 WebUI.click(findTestObject('Web/Sales Order View/select_SO Status'))
 
+txtSoStatusName = WebUI.getText(findTestObject('Web/Sales Order View/soStatus_Value'))
+
+println(txtSoStatusName)
+
 WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Web/Sales Order View/calender_SOFromDate'))
@@ -47,4 +51,66 @@ WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Re_Usables/Datepicke
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Web/Sales Order View/button_Search'))
+
+WebUI.delay(5)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Web/Sales Order View/Grid/grid_RetailerName'))
+
+WebUI.verifyElementPresent(findTestObject('Web/Sales Order View/Grid/grid_RetailerName'), 0)
+
+WebUI.verifyElementVisible(findTestObject('Web/Sales Order View/Grid/grid_SO Number'))
+
+WebUI.verifyElementPresent(findTestObject('Web/Sales Order View/Grid/grid_SO Number'), 0)
+
+WebUI.verifyElementVisible(findTestObject('Web/Sales Order View/Grid/grid_So Date'))
+
+WebUI.verifyElementPresent(findTestObject('Web/Sales Order View/Grid/grid_So Date'), 0)
+
+WebUI.verifyElementVisible(findTestObject('Web/Sales Order View/Grid/grid_SO Value'))
+
+WebUI.verifyElementPresent(findTestObject('Web/Sales Order View/Grid/grid_SO Value'), 0)
+
+WebUI.verifyElementVisible(findTestObject('Web/Sales Order View/Grid/Grid_Type'))
+
+WebUI.verifyElementPresent(findTestObject('Web/Sales Order View/Grid/Grid_Type'), 0)
+
+WebUI.verifyElementVisible(findTestObject('Web/Sales Order View/Grid/grid_SO Status'))
+
+WebUI.verifyElementPresent(findTestObject('Web/Sales Order View/Grid/grid_SO Status'), 0)
+
+WebUI.verifyElementVisible(findTestObject('Web/Sales Order View/Grid/grid_Action_EyeIcon'))
+
+WebUI.verifyElementPresent(findTestObject('Web/Sales Order View/Grid/grid_Action_EyeIcon'), 0)
+
+WebUI.verifyElementVisible(findTestObject('Web/Sales Order View/Grid/grid_Action_Remove_icon'))
+
+WebUI.verifyElementPresent(findTestObject('Web/Sales Order View/Grid/grid_Action_Remove_icon'), 0)
+
+txtRetailerName = WebUI.getText(findTestObject('Web/Sales Order View/Grid/grid_RetailerName'))
+
+println(txtRetailerName)
+
+txtSoNumber = WebUI.getText(findTestObject('Web/Sales Order View/Grid/grid_SO Number'))
+
+println(txtSoNumber)
+
+txtSoDate = WebUI.getText(findTestObject('Web/Sales Order View/Grid/grid_So Date'))
+
+println(txtSoDate)
+
+txtSoValue = WebUI.getText(findTestObject('Web/Sales Order View/Grid/grid_SO Value'))
+
+println(txtSoValue)
+
+txtType = WebUI.getText(findTestObject('Web/Sales Order View/Grid/Grid_Type'))
+
+println(txtType)
+
+txtSoStatus = WebUI.getText(findTestObject('Web/Sales Order View/Grid/grid_SO Status'))
+
+println(txtSoStatus)
+
+WebUI.verifyMatch(txtSoStatusName, txtSoStatus, false)
 

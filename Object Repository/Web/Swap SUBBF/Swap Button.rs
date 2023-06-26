@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>New Test Object - Copy (8)</name>
+   <name>Swap Button</name>
    <tag></tag>
-   <elementGuidId>daba0fa0-899e-448d-9046-dcadf5997924</elementGuidId>
+   <elementGuidId>0d14821b-82fc-414e-acf1-f17d5665e6a5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>(//a[@ng-click=&quot;swapOrders(dm)&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Web/Frame/Main Frame</value>
-      <webElementGuid>6ef06e61-ac32-4bd3-84c6-5d4e2a097d75</webElementGuid>
+      <webElementGuid>162e1366-0583-40d0-be5d-31ced5f2d760</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

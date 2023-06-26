@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>New Test Object - Copy (4)</name>
+   <name>Option Warehouse</name>
    <tag></tag>
-   <elementGuidId>89852bf9-81e1-4018-bdbc-b99ee46a8fa0</elementGuidId>
+   <elementGuidId>0047003d-0f34-431a-b12d-eb2b19db546a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
+         <value>(//md-option[@ng-repeat=&quot;warehouse in warehouses | filter:{ Text :SearchWarehouse}&quot;])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,6 +22,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Web/Frame/Main Frame</value>
-      <webElementGuid>f0df36c1-0f5c-4521-93da-6dcec88ffaab</webElementGuid>
+      <webElementGuid>128e7c23-62a5-4251-ba4f-c0e0f81c5169</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

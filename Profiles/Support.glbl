@@ -79,4 +79,9 @@
       <initValue>''</initValue>
       <name>year</name>
    </GlobalVariableEntity>
+<GlobalVariableEntity>
+      <description>Sku with tax and without Discount</description>
+      <initValue>'OB Prohealth Sft'</initValue>
+      <name>SkuName1</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

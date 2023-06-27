@@ -3,11 +3,9 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-
-import java.awt.Robot
-import java.awt.Toolkit
-import java.awt.event.KeyEvent
-
+import java.awt.Robot as Robot
+import java.awt.Toolkit as Toolkit
+import java.awt.event.KeyEvent as KeyEvent
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -19,24 +17,22 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable
+import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.chrome.ChromeOptions as ChromeOptions
 import org.sikuli.script.Pattern as Pattern
 import org.sikuli.script.Screen as Screen
-import java.awt.Toolkit
-import java.awt.datatransfer.Clipboard
-import java.awt.datatransfer.ClipboardOwner
-import java.awt.datatransfer.DataFlavor
-import java.awt.datatransfer.StringSelection
-import java.awt.datatransfer.Transferable
+import java.awt.datatransfer.Clipboard as Clipboard
+import java.awt.datatransfer.ClipboardOwner as ClipboardOwner
+import java.awt.datatransfer.DataFlavor as DataFlavor
+import java.awt.datatransfer.StringSelection as StringSelection
+import java.awt.datatransfer.Transferable as Transferable
 
-
-Mobile.callTestCase(findTestCase('WEB/Re usables/Launch Web Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.callTestCase(findTestCase('WEB/Re usables/Branch User Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.refresh()
 
 WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Sales Return with Reference'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('WEB/Re usables/Delete Existing Invoices'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementPresent(findTestObject('Web/Sales Return with reference/Sales Person Textbox'), 0)
 
@@ -114,19 +110,34 @@ WebUI.takeScreenshot()
 WebUI.delay(5)
 
 WebUI.clickImage(findTestObject('Web/Sales Return with reference/Print button in preview'), FailureHandling.STOP_ON_FAILURE)
-WebUI.delay(5)
-Robot robot=new Robot()
-	robot.keyPress(KeyEvent.VK_A)
-	robot.keyRelease(KeyEvent.VK_A)
-	robot.keyPress(KeyEvent.VK_4)
-	robot.keyRelease(KeyEvent.VK_4)
-	robot.keyPress(KeyEvent.VK_S)
-	robot.keyRelease(KeyEvent.VK_S)
-	robot.keyPress(KeyEvent.VK_R)
-	robot.keyRelease(KeyEvent.VK_R)
-	robot.keyPress(KeyEvent.VK_ENTER)
-	robot.keyPress(KeyEvent.VK_ENTER)
 
+WebUI.delay(5)
+
+Robot robot = new Robot()
+
+robot.keyPress(KeyEvent.VK_A)
+
+robot.keyRelease(KeyEvent.VK_A)
+
+robot.keyPress(KeyEvent.VK_4)
+
+robot.keyRelease(KeyEvent.VK_4)
+
+robot.keyPress(KeyEvent.VK_SPACE)
+
+robot.keyRelease(KeyEvent.VK_SPACE)
+
+robot.keyPress(KeyEvent.VK_S)
+
+robot.keyRelease(KeyEvent.VK_S)
+
+robot.keyPress(KeyEvent.VK_R)
+
+robot.keyRelease(KeyEvent.VK_R)
+
+robot.keyPress(KeyEvent.VK_ENTER)
+
+robot.keyPress(KeyEvent.VK_ENTER)
 
 WebUI.click(findTestObject('Web/Sales Return with reference/Print template dropdown'))
 
@@ -141,27 +152,58 @@ WebUI.clickImage(findTestObject('Web/Sales Return with reference/Print_image'), 
 WebUI.delay(5)
 
 WebUI.clickImage(findTestObject('Web/Sales Return with reference/Print button in preview'), FailureHandling.STOP_ON_FAILURE)
+
 WebUI.delay(5)
 
-	robot.keyPress(KeyEvent.VK_A)
-	robot.keyRelease(KeyEvent.VK_A)
-	robot.keyPress(KeyEvent.VK_4)
-	robot.keyRelease(KeyEvent.VK_4)
-	robot.keyPress(KeyEvent.VK_S)
-	robot.keyRelease(KeyEvent.VK_S)
-	robot.keyPress(KeyEvent.VK_R)
-	robot.keyRelease(KeyEvent.VK_R)
-	robot.keyPress(KeyEvent.VK_K)
-	robot.keyRelease(KeyEvent.VK_K)
-	robot.keyPress(KeyEvent.VK_E)
-	robot.keyRelease(KeyEvent.VK_E)
-	robot.keyPress(KeyEvent.VK_R)
-	robot.keyRelease(KeyEvent.VK_R)
-	robot.keyPress(KeyEvent.VK_A)
-	robot.keyRelease(KeyEvent.VK_A)
-	robot.keyPress(KeyEvent.VK_L)
-	robot.keyRelease(KeyEvent.VK_L)
-	robot.keyPress(KeyEvent.VK_A)
-	robot.keyRelease(KeyEvent.VK_A)
-	robot.keyPress(KeyEvent.VK_ENTER)
-	robot.keyPress(KeyEvent.VK_ENTER)
+robot.keyPress(KeyEvent.VK_A)
+
+robot.keyRelease(KeyEvent.VK_A)
+
+robot.keyPress(KeyEvent.VK_4)
+
+robot.keyRelease(KeyEvent.VK_4)
+
+robot.keyPress(KeyEvent.VK_SPACE)
+
+robot.keyRelease(KeyEvent.VK_SPACE)
+
+robot.keyPress(KeyEvent.VK_S)
+
+robot.keyRelease(KeyEvent.VK_S)
+
+robot.keyPress(KeyEvent.VK_R)
+
+robot.keyRelease(KeyEvent.VK_R)
+
+robot.keyPress(KeyEvent.VK_SPACE)
+
+robot.keyRelease(KeyEvent.VK_SPACE)
+
+robot.keyPress(KeyEvent.VK_K)
+
+robot.keyRelease(KeyEvent.VK_K)
+
+robot.keyPress(KeyEvent.VK_E)
+
+robot.keyRelease(KeyEvent.VK_E)
+
+robot.keyPress(KeyEvent.VK_R)
+
+robot.keyRelease(KeyEvent.VK_R)
+
+robot.keyPress(KeyEvent.VK_A)
+
+robot.keyRelease(KeyEvent.VK_A)
+
+robot.keyPress(KeyEvent.VK_L)
+
+robot.keyRelease(KeyEvent.VK_L)
+
+robot.keyPress(KeyEvent.VK_A)
+
+robot.keyRelease(KeyEvent.VK_A)
+
+robot.keyPress(KeyEvent.VK_ENTER)
+
+robot.keyPress(KeyEvent.VK_ENTER)
+

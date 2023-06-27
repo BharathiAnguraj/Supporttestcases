@@ -16,14 +16,39 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.io.File
 
-WebUI.callTestCase(findTestCase('Web Completed Cases/Sales Order Upload'), [:], FailureHandling.STOP_ON_FAILURE)
+String userName = System.getProperty("user.name")
+println userName
 
-WebUI.callTestCase(findTestCase('Web Completed Cases/Sales Order View'), [:], FailureHandling.STOP_ON_FAILURE)
+try
+{
+File f1= new File("C:\\Users\\"+userName+"\\Downloads\\a4 sr.pdf")
+File f2= new File("C:\\Users\\"+userName+"\\Downloads\\a4 sr kerala.pdf")
+if(f1.delete())
+{
+println(f1.getName() + " F1 deleted")
+}
+else
+{
+println("F1 failed")
+}
 
-WebUI.callTestCase(findTestCase('Web Completed Cases/Swap SUBBF'), [:], FailureHandling.STOP_ON_FAILURE)
+if(f2.delete())
+	{
+	println(f2.getName() + " F2 deleted")
+	}
+	else
+	{
+	println(" F2 failed")
+	}
+	
+}
+catch(Exception e)
+{
+e.printStackTrace()
+}
 
-WebUI.callTestCase(findTestCase('Web Completed Cases/Stock Allocation and Stock allocation View'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Web Completed Cases/Sales Return with invoice'), [:], FailureHandling.STOP_ON_FAILURE)
+
 

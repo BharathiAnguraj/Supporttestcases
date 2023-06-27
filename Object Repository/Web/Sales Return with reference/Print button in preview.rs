@@ -7,12 +7,11 @@
    <imagePath>Image/Print button in preview.png</imagePath>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>IMAGE</key>
          <value>Image/Print button in preview.png</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>IMAGE</selectorMethod>

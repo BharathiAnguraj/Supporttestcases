@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_NavigationLink</name>
+   <tag></tag>
+   <elementGuidId>47e67571-adcc-414f-8a72-486a67562fda</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title = '${GlobalVariable.mAttributetitle}' and (text() = '${GlobalVariable.mAttributetext}' or . = '${GlobalVariable.mAttributetext}')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@title = '${GlobalVariable.Attributetitle}' and (text() = '${GlobalVariable.Attributetext}' or . = '${GlobalVariable.Attributetext}')])[last()]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>01b932e5-47f6-45f1-85a7-f979e0232b84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>waves-effect waves-cyan collapsible-header</value>
+      <webElementGuid>7a3105b3-3512-482a-a813-06f39fdd778e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>a4f8c90b-9308-4e7c-be25-96d717fe948a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>${GlobalVariable.mAttributetitle}</value>
+      <webElementGuid>c23bb416-bb28-4c7d-a5ae-30ee656f6c67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${GlobalVariable.mAttributetext}</value>
+      <webElementGuid>3d3995ff-8bdf-4a62-b736-9ac37d9fba7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;collapsibleMenuContainer&quot;)/li[@class=&quot;bold active&quot;]/div[@class=&quot;collapsible-body&quot;]/ul[@class=&quot;collapsible collapsible-accordion&quot;]/li[@class=&quot;bold&quot;]/a[@class=&quot;waves-effect waves-cyan collapsible-header&quot;]</value>
+      <webElementGuid>809c6651-d99d-4833-8626-8c989fa90ff5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='collapsibleMenuContainer']/li[4]/div/ul/li/a</value>
+      <webElementGuid>2574daf7-6530-4aa3-af0f-eae1a7a3b803</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Receivables')])[2]</value>
+      <webElementGuid>ad226454-9b69-43df-9d4c-5a5862be0549</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::a[36]</value>
+      <webElementGuid>04cc7969-42cd-47eb-b15a-f12eedc53507</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='en'])[1]/following::a[43]</value>
+      <webElementGuid>240a6744-6844-417b-b010-4497ddd64f6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/preceding::a[123]</value>
+      <webElementGuid>436ca5c3-c20c-4da0-9b8b-4f8a4dfea23f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[41]</value>
+      <webElementGuid>bf716a9e-ca0d-431e-9f35-045c5be9e6c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/ul/li/a</value>
+      <webElementGuid>a4e08261-7ed2-41c5-bb84-e3d577817ecb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

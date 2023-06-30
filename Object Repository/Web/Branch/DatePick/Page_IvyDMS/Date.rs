@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Date</name>
+   <tag></tag>
+   <elementGuidId>e3b7577b-f51f-4838-8bfc-9029b1ca34af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(contains(text(), '${GlobalVariable.SsDate}') or contains(., '${GlobalVariable.SsDate}')) and @ref_element = 'Object Repository/Phase_2/Surendran/DatePick/Page_IvyDMS/iframe_Logout_iContent']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>52a17f70-51bd-4737-8e26-c6f6254f538f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>${GlobalVariable.SsDate}</value>
+      <webElementGuid>bdfdca5b-1884-409a-b089-3b0e5d69cb85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Web/Frame/Main Frame</value>
+      <webElementGuid>b855b172-ead6-4afb-8af8-b013d0246f65</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

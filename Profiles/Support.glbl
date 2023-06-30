@@ -89,4 +89,24 @@
       <initValue>'Body Rzr'</initValue>
       <name>src_SKUName</name>
    </GlobalVariableEntity>
+<GlobalVariableEntity>
+      <description></description>
+      <initValue>'Large A Beauty'</initValue>
+      <name>ChannelType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TNPKL_00412'</initValue>
+      <name>Retailer_Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TNPKL_MS112 - Chandan Mishra'</initValue>
+      <name>Sales_Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TNPKL_00015 - Madras  Store'</initValue>
+      <name>Retailer_Name_1</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

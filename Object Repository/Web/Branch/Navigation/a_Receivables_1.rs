@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Receivables_1</name>
+   <tag></tag>
+   <elementGuidId>c4b41e58-d4d0-46ff-9905-eec5989bad92</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@title = 'Receivables' and (text() = 'Receivables' or . = 'Receivables')])[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;collapsibleMenuContainer&quot;)/li[@class=&quot;bold active&quot;]/div[@class=&quot;collapsible-body&quot;]/ul[@class=&quot;collapsible collapsible-accordion&quot;]/li[@class=&quot;bold&quot;]/a[@class=&quot;waves-effect waves-cyan collapsible-header&quot;][count(. | //*[@href = '#' and @title = 'Receivables' and (text() = 'Receivables' or . = 'Receivables')]) = count(//*[@href = '#' and @title = 'Receivables' and (text() = 'Receivables' or . = 'Receivables')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>35b65ebd-fd09-4f76-a3c6-2f2a694cbbd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>waves-effect waves-cyan collapsible-header</value>
+      <webElementGuid>57d02e48-943a-403f-b3fd-e85e9bf6babc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>e42c7579-16a4-4762-afbf-0a96f75bff3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Receivables</value>
+      <webElementGuid>94a6b27e-d588-4e96-bd46-ba236a7bc3a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Receivables</value>
+      <webElementGuid>5e40914b-9d6b-4bd7-b752-e02a57620e91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;collapsibleMenuContainer&quot;)/li[@class=&quot;bold active&quot;]/div[@class=&quot;collapsible-body&quot;]/ul[@class=&quot;collapsible collapsible-accordion&quot;]/li[@class=&quot;bold&quot;]/a[@class=&quot;waves-effect waves-cyan collapsible-header&quot;]</value>
+      <webElementGuid>85427aeb-7429-4b1a-bb1e-47b97b5d94ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='collapsibleMenuContainer']/li[4]/div/ul/li/a</value>
+      <webElementGuid>a8c2078c-4d7a-42d2-8283-a4fa790b62aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Receivables')])[2]</value>
+      <webElementGuid>90435a9f-c925-4546-8799-a3449db753dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/following::a[36]</value>
+      <webElementGuid>7be180fe-90cd-4126-a99a-472c6f529363</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='en'])[1]/following::a[43]</value>
+      <webElementGuid>dc097a36-222c-4765-8dad-f6f212bc4a3a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/preceding::a[124]</value>
+      <webElementGuid>d4408bfa-3c11-46a7-b192-e81f2fc960ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[41]</value>
+      <webElementGuid>262b8706-fe3d-4441-bb46-88be08fa12af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/div/ul/li/a</value>
+      <webElementGuid>fc116832-4771-4a8d-bd63-a7a189cc80d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

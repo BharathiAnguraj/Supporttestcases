@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Exp Del Date</name>
+   <tag></tag>
+   <elementGuidId>6048f6ca-f4ad-48d1-82ce-6bd9a02806a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='searchouter']/div[6]/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>c9a6b56f-9b75-4117-9e14-f173680e196c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>control-label</value>
+      <webElementGuid>93259026-5de7-494c-82e7-58814d36d2cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>Delivery_FromDate</value>
+      <webElementGuid>647e9493-79b0-4290-b0b8-81faaccc3bf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Exp. Del. Date</value>
+      <webElementGuid>4dd78ee7-5af5-48fb-a8db-ade9432d14af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;searchouter&quot;)/div[@class=&quot;col-xs-12 col-sm-6 col-md-4 col-lg-4 form-element-split&quot;]/div[@class=&quot;col-xs-6 col-sm-6 col-md-6 col-lg-6 form-element&quot;]/label[@class=&quot;control-label&quot;]</value>
+      <webElementGuid>069e933a-5084-4953-a60b-4e06845edd58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Web/Frame/Main Frame</value>
+      <webElementGuid>c6d11aff-098f-4b2d-94bd-bfc00b88375d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='searchouter']/div[6]/div/label</value>
+      <webElementGuid>8f19318e-2f38-43d9-a61f-026eec1f4994</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SO Date is mandatory.'])[2]/following::label[1]</value>
+      <webElementGuid>9d184a81-50f1-4bc6-8da8-0b63857b6e19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SO Date is mandatory.'])[1]/following::label[1]</value>
+      <webElementGuid>370c2ae0-f5d7-420e-a392-93e3a00f7ae6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exp. Del. Date is mandatory.'])[1]/preceding::label[1]</value>
+      <webElementGuid>3ff1f47c-39bd-480b-9404-68b3c6a97bcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exp. Del. Date is mandatory.'])[2]/preceding::label[1]</value>
+      <webElementGuid>4cb5746d-9755-496a-ba47-95c8be9557c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/label</value>
+      <webElementGuid>6c361781-e6a1-4707-aebf-9c1ecc53f098</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

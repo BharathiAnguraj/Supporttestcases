@@ -6,11 +6,11 @@
    <elementGuidId>329ad8e2-c97e-4538-8607-8cc3f5ab17b6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//label[@for='0']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//div[@ng-switch-when='Check']//child::label)[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Web/Frame/Main Frame</value>
-      <webElementGuid>4cf79520-112d-4199-b5a1-9344450e1800</webElementGuid>
+      <webElementGuid>10369ca5-1f2b-432e-aaf1-8427a42c6350</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

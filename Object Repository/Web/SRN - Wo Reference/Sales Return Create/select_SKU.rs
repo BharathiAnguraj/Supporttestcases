@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//span[contains(.,'${GlobalVariable.src_SKUName}')])[1]</value>
+         <value>(//span[contains(.,'${GlobalVariable.SKUName}')])[1]</value>
       </entry>
       <entry>
          <key>BASIC</key>
@@ -21,34 +21,34 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Web/Frame/Main Frame</value>
-      <webElementGuid>4471f1bb-2850-428c-9881-f52efcf9935f</webElementGuid>
+      <webElementGuid>1e7b1932-a0d8-4084-80b7-671c54e3c169</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
       <value>//li[contains(.,'TNPKL_DB01 - TEST DB01')]</value>
-      <webElementGuid>93e8c8c3-f4db-40fd-9787-dd6d47f54654</webElementGuid>
+      <webElementGuid>effccba3-4929-433b-94a2-d701af98b0ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
       <value>//a[contains(.,'TNPKL_MS115 - Himmat Singh')]</value>
-      <webElementGuid>ad7677c3-929a-4a85-9bde-16fa13d721df</webElementGuid>
+      <webElementGuid>8d84b41f-e74e-4a1a-9ac4-2330722cf4aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
       <value>//a[contains(.,'TNPKL_90034 - APNA BAZAAR')]</value>
-      <webElementGuid>45fad467-8b8d-4fd4-8877-f712799b6977</webElementGuid>
+      <webElementGuid>11388f96-8216-40a5-96a7-7f17b78e0b60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <type>Main</type>
       <value>(//span[contains(.,'OralB Powrbrush Refl')])[1]</value>
-      <webElementGuid>9f5a2375-0bd1-4d16-9198-478a282d4cb9</webElementGuid>
+      <webElementGuid>aac9430b-c244-44a9-92bf-bc6133afd472</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

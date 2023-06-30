@@ -30,6 +30,18 @@ if (DateValue == 'Today') {
     DateValue = today
 }
 
+if (DateValue == 'Tomorrow') {
+    DateFormat dateFormat = new SimpleDateFormat('dd-MMM-yyyy')
+
+    Date date = new Date()
+
+    String today = dateFormat.format(date + 1)
+
+    println(today)
+
+    DateValue = today
+}
+
 String[] sDate = DateValue.split('-')
 
 println(((((sDate[0]) + ';') + (sDate[1])) + ';') + (sDate[2]))
@@ -55,6 +67,8 @@ WebUI.click(findTestObject('Web/Calendar/Year_Option'))
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Web/Calendar/Month_Option'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Web/Calendar/Date'))
 

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Cloud01</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>web Application URL</description>
+      <initValue>'https://cloud01-in.ivydms.com/web/DMS'</initValue>
+      <name>appUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Branch user username</description>
+      <initValue>'TNPKL_IDSS01'</initValue>
+      <name>branchUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>branch user password</description>
+      <initValue>'password12'</initValue>
+      <name>branchUserPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Application under test</description>
+      <initValue>'APK File/IvyDMS_PNGIndia_1571_9917.apk'</initValue>
+      <name>AndroidApplication</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Activation key for the application</description>
+      <initValue>'PNGIN-SF-RPKFEIZ'</initValue>
+      <name>ActivationKey</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>DSE User Username</description>
+      <initValue>'TNPKL_MS115'</initValue>
+      <name>dseUser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>DSE User Password</description>
+      <initValue>'password1'</initValue>
+      <name>dsePassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TNPKL_MS115 - Himmat Singh'</initValue>
+      <name>Salesperson</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Retailer for Mobile transactions</description>
+      <initValue>'APNA BAZAAR'</initValue>
+      <name>MobileRetailer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Sales Return Create</description>
+      <initValue>'Body Rzr'</initValue>
+      <name>SKUName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TNPKL_00412'</initValue>
+      <name>Retailer_Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>deliveryPerson</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Xpath Attribute text for Navigation</description>
+      <initValue>''</initValue>
+      <name>Attributetext</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Xpath Attribute title for Navigation</description>
+      <initValue>''</initValue>
+      <name>Attributetitle</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Date Picker Date</description>
+      <initValue>''</initValue>
+      <name>date</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Date Picker Month</description>
+      <initValue>''</initValue>
+      <name>month</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Date Picket Year</description>
+      <initValue>''</initValue>
+      <name>year</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>invoiceNumber</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

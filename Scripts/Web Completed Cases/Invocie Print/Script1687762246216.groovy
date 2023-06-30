@@ -1,5 +1,4 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import org.openqa.selenium.By as By
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
@@ -13,9 +12,7 @@ import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-WebUI.callTestCase(findTestCase('WEB/Re usables/Launch Web Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('WEB/Re usables/Branch User Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.refresh()
 
 WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Navigate to Invoice Print'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -23,7 +20,7 @@ WebUI.waitForElementVisible(findTestObject('Web/Invoice Print/input Print Status
 
 WebUI.click(findTestObject('Web/Invoice Print/input DeliveryDate'))
 
-WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Re_Usables/Datepicker/Date Picker Tomorrow'), [('DateValue') : 'Tomorrow'], 
+WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Re_Usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Web/Invoice Print/input Print Status'), FailureHandling.STOP_ON_FAILURE)
@@ -37,6 +34,7 @@ WebUI.click(findTestObject('Web/Invoice Print/button Search'))
 WebUI.delay(5)
 
 WebUI.scrollToElement(findTestObject('Web/Invoice Print/grid 1stInvoiceNo'), 5, FailureHandling.OPTIONAL)
+
 //
 //if (WebUI.verifyElementNotPresent(findTestObject('Object Repository/Web/Invoice Print/grid 1stInvoiceNo'), 5, FailureHandling.OPTIONAL)) {
 //    WebUI.callTestCase(findTestCase('WEB/Re usables/Sales Invoice Creation'), [:], FailureHandling.CONTINUE_ON_FAILURE)
@@ -62,7 +60,6 @@ WebUI.scrollToElement(findTestObject('Web/Invoice Print/grid 1stInvoiceNo'), 5, 
 //
 //    WebUI.click(findTestObject('Web/Invoice Print/button Search'))
 //}
-
 WebUI.scrollToElement(findTestObject('Web/Invoice Print/checkbox SelectAll'), 0)
 
 WebUI.click(findTestObject('Web/Invoice Print/checkbox SelectAll'))
@@ -79,11 +76,11 @@ WebUI.scrollToElement(findTestObject('Web/Invoice Print/button PrintInvoice'), 0
 
 WebUI.click(findTestObject('Web/Invoice Print/button PrintInvoice'))
 
-WebUI.delay(10)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Web/Invoice Print/drop PrintPattern'))
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
 WebDriver driver = DriverFactory.getWebDriver()
 
@@ -96,16 +93,14 @@ println(list)
 List<WebElement> printpatterns = new ArrayList<String>()
 
 for (int i = 1; i < list.size(); i++) {
-	
     if (i != 1) {
-		
         WebUI.switchToDefaultContent(FailureHandling.STOP_ON_FAILURE)
 
-        WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+        WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
 
         WebUI.click(findTestObject('Web/Invoice Print/drop PrintPattern'))
 
-        WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+        WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
         WebUI.switchToFrame(findTestObject('Web/Frame/Main Frame'), 0)
 
@@ -120,11 +115,11 @@ for (int i = 1; i < list.size(); i++) {
 
         ((driver) as JavascriptExecutor).executeScript('arguments[0].scrollIntoView(true);', patterns)
 
-    WebUI.delay(3)
+    WebUI.delay(1)
 
     patterns.click()
 
-    WebUI.delay(20)
+    WebUI.delay(10)
 
     WebUI.switchToDefaultContent(FailureHandling.STOP_ON_FAILURE)
 
@@ -136,13 +131,7 @@ for (int i = 1; i < list.size(); i++) {
 
     Pattern input_FileName = new Pattern('Image Objects\\File Name Enter bar.JPG')
 
-    Pattern printtopdf = new Pattern('Image Objects\\Microsoft Print to Pdf dropdown.PNG')
-
-    Pattern dropdownSaveaspdf = new Pattern('Image Objects\\Save as pdf.PNG')
-
     Pattern buttonprint = new Pattern('Image Objects\\Print button in preview.PNG')
-
-    Pattern buttonPrinterSelectionSave = new Pattern('Image Objects\\Printer Selection Save Button.PNG')
 
     Pattern buttonRenameYes = new Pattern('Image Objects\\Yes Button Rename existing.PNG')
 
@@ -150,60 +139,36 @@ for (int i = 1; i < list.size(); i++) {
 
     Pattern savebutton = new Pattern('Image Objects\\Save Button.PNG')
 
-	
     s.click(printicon)
 
-    WebUI.delay(5)
+    WebUI.delay(2)
 
+    s.click(buttonprint)
+
+    WebUI.delay(2)
+
+    //Delete previous downloaded Pdf
     if (i == 1) {
-        s.click(printtopdf)
+        for (j = 1; j < list.size(); j++) {
+            def SystemDownLoadFolder = System.getProperty('user.home') + '/Downloads/'
 
-        WebUI.delay(5)
+            SystemDownLoadFolder = SystemDownLoadFolder.replace('/', '\\')
 
-        s.click(dropdownSaveaspdf)
+            println('SystemDownLoadFolder: ' + SystemDownLoadFolder)
 
-        WebUI.delay(5)
+            File f1 = new File(((SystemDownLoadFolder + '\\PrintTemplate') + j) + '.pdf')
+
+            f1.delete()
+        }
     }
     
-    s.click(buttonPrinterSelectionSave)
-
-    WebUI.delay(5)
-
-    s.type('a', KeyModifier.CTRL)
-
-    s.type(Key.BACKSPACE)
-
-    WebUI.delay(5)
-	
-	
-	//Delete previous downloaded Pdf
-	if(i==1)
-		{
-		
-	for(j=1;j<list.size();j++)
-	{
-	def SystemDownLoadFolder = (System.getProperty('user.home') + '/Downloads/')
-	
-	SystemDownLoadFolder = SystemDownLoadFolder.replace('/', '\\')
-	
-	println('SystemDownLoadFolder: ' + SystemDownLoadFolder)
-	
-	File f1 = new File(SystemDownLoadFolder+"\\PrintTemplate"+j+".pdf")
-	
-	f1.delete()
-	
-	}
-	
-	}
     String name = 'PrintTemplate' + i.toString()
 
-	
-
-    WebUI.delay(5)
+    WebUI.delay(1)
 
     s.type(input_FileName, name)
 
-    WebUI.delay(5)
+    WebUI.delay(1)
 
     s.click(savebutton)
 
@@ -216,11 +181,9 @@ for (int i = 1; i < list.size(); i++) {
     if (s.exists(buttonRenameYes) != null) {
         s.click(buttonRenameYes)
 
-        WebUI.delay(5)
+        WebUI.delay(1)
     }
     
     WebUI.takeScreenshot()
 }
-
-WebUI.closeBrowser()
 

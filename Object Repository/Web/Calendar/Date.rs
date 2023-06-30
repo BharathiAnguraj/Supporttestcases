@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//a[(contains(text(), '${GlobalVariable.date}') or contains(., '${GlobalVariable.date}')) and @ref_element = 'Object Repository/Web/Frame/Main Frame']</value>
+         <value>//a[(text() = '${GlobalVariable.date}' or . = '${GlobalVariable.date}') and @ref_element = 'Object Repository/Web/Frame/Main Frame']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,15 +21,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>dda9a8c1-91de-4233-9254-23a7b19dd555</webElementGuid>
+      <webElementGuid>02c6265f-3f4a-469d-92fa-8b124bbbe3fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>contains</matchCondition>
+      <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>${GlobalVariable.date}</value>
-      <webElementGuid>d00be5e5-2258-4eb7-94df-80b2ead8523e</webElementGuid>
+      <webElementGuid>d4ee99c2-6b2d-4a57-afdd-8fcd205742f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,6 +37,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Web/Frame/Main Frame</value>
-      <webElementGuid>e4904cda-05d6-465c-9a5c-47bc850f1a19</webElementGuid>
+      <webElementGuid>30047fcf-c43f-49e0-aaa5-a878df4bd2ad</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

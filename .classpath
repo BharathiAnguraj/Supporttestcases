@@ -156,7 +156,11 @@
 			<attribute name="javadoc_location" value="file:/D:/Software%20backup/Katalon_Studio_Windows_64-8.6.0/configuration/resources/apidocs/com.kms.katalon.core.testng/"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/Software backup/Katalon_Studio_Windows_64-8.6.0/configuration/plugin/install/227241/1.0.1/katalon-studio-saucelabs-plugin.jar"/>
+	<classpathentry kind="lib" path="D:/2023/New GIT/Supporttestcases/Drivers/sikuli-3.0.0.jar"/>
+	<classpathentry kind="lib" path="D:/2023/New GIT/Supporttestcases/Drivers/sikulixapi-1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/2023/New GIT/Supporttestcases/Drivers/sikulixlibslux-1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/2023/New GIT/Supporttestcases/Drivers/sikulixlibswin-1.1.0.jar"/>
+	<classpathentry kind="lib" path="D:/2023/New GIT/Supporttestcases/Drivers/sikulixsetup-1.1.2.jar"/>
 	<classpathentry kind="lib" path="D:/Software backup/Katalon_Studio_Windows_64-8.6.0/configuration/plugin/install/99086/1.2.0/Katalon Gmail.jar"/>
 	<classpathentry kind="lib" path="D:/Software backup/Katalon_Studio_Windows_64-8.6.0/configuration/plugin/install/98924/1.0.2/ExcelKeywords.jar"/>
 	<classpathentry kind="lib" path="D:/Software backup/Katalon_Studio_Windows_64-8.6.0/configuration/org.eclipse.osgi/30/0/.cp/resources/basic-report/katalon-studio-report-plugin.jar"/>
@@ -166,6 +170,5 @@
 	<classpathentry kind="lib" path="D:/Software backup/Katalon_Studio_Windows_64-8.6.0/configuration/plugin/install/198040/3.5.3/Browserstack_Integration_3.5.3.jar"/>
 	<classpathentry kind="lib" path="D:/Software backup/Katalon_Studio_Windows_64-8.6.0/configuration/plugin/install/99087/1.0.0/katalon-studio-datetime-plugin.jar"/>
 	<classpathentry kind="con" path="GROOVY_SUPPORT"/>
-	<classpathentry kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

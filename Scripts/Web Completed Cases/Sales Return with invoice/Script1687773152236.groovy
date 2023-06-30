@@ -28,6 +28,8 @@ import java.awt.datatransfer.DataFlavor as DataFlavor
 import java.awt.datatransfer.StringSelection as StringSelection
 import java.awt.datatransfer.Transferable as Transferable
 
+WebUI.callTestCase(findTestCase('WEB/Re usables/Invoice number from invoice history'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.refresh()
 
 WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Sales Return with Reference'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -50,6 +52,8 @@ WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('Web/Sales Return with reference/Retailer Textbox'), Keys.chord(Keys.DOWN, Keys.ENTER))
 
+WebUI.setText(findTestObject('Web/Sales Return with reference/Invoice number'), GlobalVariable.invoiceNumber)
+
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Web/Sales Return with reference/Button Load Invoice'))
@@ -57,17 +61,6 @@ WebUI.click(findTestObject('Web/Sales Return with reference/Button Load Invoice'
 WebUI.takeScreenshot()
 
 WebUI.delay(2)
-
-WebUI.waitForElementPresent(findTestObject('Web/Sales Return with reference/Invoice Filter From Date'), 0)
-
-WebUI.click(findTestObject('Web/Sales Return with reference/Invoice Filter From Date'))
-
-WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Re_Usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
-    FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Web/Sales Return with reference/invoice Search button'))
-
-WebUI.click(findTestObject('Web/Sales Return with reference/invoice select Button'))
 
 WebUI.waitForPageLoad(0)
 

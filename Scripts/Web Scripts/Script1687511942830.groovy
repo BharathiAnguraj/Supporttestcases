@@ -25,7 +25,13 @@ WebUI.callTestCase(findTestCase('Web Completed Cases/Swap SUBBF'), [:], FailureH
 
 WebUI.callTestCase(findTestCase('Web Completed Cases/Stock Allocation and Stock allocation View'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Web Completed Cases/Picklist'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Web Completed Cases/Invocie Print'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Web Completed Cases/Collection And Bank Reco'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.callTestCase(findTestCase('Web Completed Cases/Sales Return with invoice'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Web Completed Cases/SRN-Without reference'), [:], FailureHandling.STOP_ON_FAILURE)
 

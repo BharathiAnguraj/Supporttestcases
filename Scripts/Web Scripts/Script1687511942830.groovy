@@ -17,21 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Web Completed Cases/Sales Order Upload'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WEB/Web Completed Cases/Sales Order Upload'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Web Completed Cases/Sales Order View'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WEB/Web Completed Cases/Sales Order View'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Web Completed Cases/Swap SUBBF'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WEB/Web Completed Cases/Swap SUBBF'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Web Completed Cases/Stock Allocation and Stock allocation View'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WEB/Web Completed Cases/Stock Allocation and Stock allocation View'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Web Completed Cases/Picklist'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WEB/Web Completed Cases/Picklist'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Web Completed Cases/Invocie Print'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WEB/Web Completed Cases/Invocie Print'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Web Completed Cases/Collection And Bank Reco'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WEB/Web Completed Cases/Collection And Bank Reco'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Web Completed Cases/Sales Return with invoice'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WEB/Web Completed Cases/Sales Return with invoice'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Web Completed Cases/SRN-Without reference'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WEB/Web Completed Cases/SRN-Without reference'), [:], FailureHandling.STOP_ON_FAILURE)
 

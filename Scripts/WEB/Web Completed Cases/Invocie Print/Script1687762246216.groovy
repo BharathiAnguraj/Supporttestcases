@@ -92,6 +92,8 @@ println(list)
 
 List<WebElement> printpatterns = new ArrayList<String>()
 
+String TemplateName
+
 for (int i = 1; i < list.size(); i++) {
     if (i != 1) {
         WebUI.switchToDefaultContent(FailureHandling.STOP_ON_FAILURE)
@@ -116,6 +118,9 @@ for (int i = 1; i < list.size(); i++) {
         ((driver) as JavascriptExecutor).executeScript('arguments[0].scrollIntoView(true);', patterns)
 
     WebUI.delay(1)
+	
+	//Getting Template Name
+        TemplateName = list.get(i).getText()
 
     patterns.click()
 
@@ -148,7 +153,7 @@ for (int i = 1; i < list.size(); i++) {
     WebUI.delay(2)
 
     //Delete previous downloaded Pdf
-    if (i == 1) {
+  
         for (j = 1; j < list.size(); j++) {
             def SystemDownLoadFolder = System.getProperty('user.home') + '/Downloads/'
 
@@ -156,17 +161,13 @@ for (int i = 1; i < list.size(); i++) {
 
             println('SystemDownLoadFolder: ' + SystemDownLoadFolder)
 
-            File f1 = new File(((SystemDownLoadFolder + '\\PrintTemplate') + j) + '.pdf')
+			File f1 = new File((SystemDownLoadFolder + TemplateName) + '.pdf')
 
             f1.delete()
         }
-    }
-    
-    String name = 'PrintTemplate' + i.toString()
-
+   
     WebUI.delay(1)
-
-    s.type(input_FileName, name)
+    s.type(input_FileName, TemplateName)
 
     WebUI.delay(1)
 

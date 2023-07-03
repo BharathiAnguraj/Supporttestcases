@@ -61,6 +61,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'Large A Beauty'</initValue>
+      <name>ChannelType</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>''</initValue>
       <name>deliveryPerson</name>
    </GlobalVariableEntity>

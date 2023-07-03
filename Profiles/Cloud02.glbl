@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>web Application URL</description>
-      <initValue>'https://cloud01-in.ivydms.com/web/DMS'</initValue>
+      <initValue>'https://cloud02-in.ivydms.com/web/DMS'</initValue>
       <name>appUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

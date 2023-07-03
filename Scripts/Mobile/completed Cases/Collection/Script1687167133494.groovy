@@ -374,5 +374,7 @@ if (Mobile.verifyMatch('0', txtPendingBillcount, false, FailureHandling.OPTIONAL
     Mobile.takeScreenshot()
 }
 
+Mobile.waitForElementPresent(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/back_Icon'), 0)
+
 Mobile.tap(findTestObject('Mobile/Store Acrivities/Collection/Bill Payment/Cash/back_Icon'), 0)
 

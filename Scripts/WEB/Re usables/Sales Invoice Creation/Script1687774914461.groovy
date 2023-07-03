@@ -36,7 +36,7 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Web/Sales Invoice/input ExpDelDate'), FailureHandling.STOP_ON_FAILURE)
 
-Mobile.callTestCase(findTestCase('WEB/Re usables/Navigations/Re_Usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
+Mobile.callTestCase(findTestCase('WEB/Re usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.sendKeys(findTestObject('Web/Sales Invoice/input RetailerName'), GlobalVariable.MobileRetailer)

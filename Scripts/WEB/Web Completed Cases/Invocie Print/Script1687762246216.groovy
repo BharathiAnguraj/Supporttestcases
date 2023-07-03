@@ -20,7 +20,7 @@ WebUI.waitForElementVisible(findTestObject('Web/Invoice Print/input Print Status
 
 WebUI.click(findTestObject('Web/Invoice Print/input DeliveryDate'))
 
-WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Re_Usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
+WebUI.callTestCase(findTestCase('WEB/Re usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Web/Invoice Print/input Print Status'), FailureHandling.STOP_ON_FAILURE)
@@ -49,7 +49,7 @@ WebUI.scrollToElement(findTestObject('Web/Invoice Print/grid 1stInvoiceNo'), 5, 
 //
 //    WebUI.click(findTestObject('Web/Invoice Print/input DeliveryDate'))
 //
-//    WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Re_Usables/Datepicker/Date Picker Tomorrow'), [('DateValue') : 'Tomorrow'], 
+//    WebUI.callTestCase(findTestCase('WEB/Re usables/Datepicker/Date Picker Tomorrow'), [('DateValue') : 'Tomorrow'], 
 //        FailureHandling.STOP_ON_FAILURE)
 //
 //    WebUI.click(findTestObject('Web/Invoice Print/input Print Status'), FailureHandling.STOP_ON_FAILURE)

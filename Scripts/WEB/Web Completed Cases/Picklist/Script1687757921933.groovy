@@ -71,18 +71,18 @@ Tomorrow = f.format(date)
 
 System.out.println('Tomorrow : ' + Tomorrow)
 
-WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Re_Usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
+WebUI.callTestCase(findTestCase('WEB/Re usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
     FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.delay(2)
 //
 //WebUI.click(findTestObject('Web/Picklist/InvoiceFromDate'))
 //
-//WebUI.callTestCase(findTestCase('Date Picker/Today date'), [('DateValue') : 'Today'], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('WEB/Re usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], FailureHandling.STOP_ON_FAILURE)
 //
 //WebUI.click(findTestObject('Web/Picklist/InvoiceToDate'))
 //
-//WebUI.callTestCase(findTestCase('Date Picker/Today date'), [('DateValue') : 'Today'], FailureHandling.STOP_ON_FAILURE)
+//WebUI.callTestCase(findTestCase('WEB/Re usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], FailureHandling.STOP_ON_FAILURE)
 WebUI.click(findTestObject('Web/Picklist/Search_Button'))
 
 WebUI.delay(5)

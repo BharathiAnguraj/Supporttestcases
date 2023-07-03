@@ -25,7 +25,7 @@ WebUI.waitForElementPresent(findTestObject('Web/Stock Allocation/Seller Based Ra
 
 WebUI.click(findTestObject('Web/Stock Allocation/Exp.Del.Date'))
 
-WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Re_Usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
+WebUI.callTestCase(findTestCase('WEB/Re usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Web/Stock Allocation/Seller Based Radio button'), FailureHandling.STOP_ON_FAILURE)
@@ -74,7 +74,7 @@ WebUI.waitForElementPresent(findTestObject('Web/Stock Allocation/Exp.Del.Date'),
 
 WebUI.click(findTestObject('Web/Stock Allocation/Exp.Del.Date'))
 
-WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Re_Usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
+WebUI.callTestCase(findTestCase('WEB/Re usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Web/Stock Allocation/Search Button'))

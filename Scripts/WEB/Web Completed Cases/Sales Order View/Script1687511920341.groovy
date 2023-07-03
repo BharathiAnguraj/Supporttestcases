@@ -45,7 +45,7 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Web/Sales Order View/calender_SOFromDate'))
 
-WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Re_Usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
+WebUI.callTestCase(findTestCase('WEB/Re usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Web/Sales Order View/button_Search'))

@@ -31,7 +31,7 @@ WebUI.waitForElementVisible(findTestObject('Web/Swap SUBBF/Delivery Date'), 0)
 
 WebUI.click(findTestObject('Web/Swap SUBBF/Delivery Date'))
 
-WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Re_Usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
+WebUI.callTestCase(findTestCase('WEB/Re usables/Datepicker/Date Picker'), [('DateValue') : 'Today'], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Web/Swap SUBBF/Seller'))

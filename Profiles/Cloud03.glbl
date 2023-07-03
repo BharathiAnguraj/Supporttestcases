@@ -6,63 +6,78 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description>web Application URL</description>
-      <initValue>'https://cloud03-in.ivydms.com/web/DMS'</initValue>
+      <initValue>findTestData('Cloud 03').getValue(2, 1)</initValue>
       <name>appUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Branch user username</description>
-      <initValue>'TNPKL_IDSS01'</initValue>
+      <initValue>findTestData('Cloud 03').getValue(2, 2)</initValue>
       <name>branchUser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>branch user password</description>
-      <initValue>'password12'</initValue>
+      <initValue>findTestData('Cloud 03').getValue(2, 3)</initValue>
       <name>branchUserPassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Application under test</description>
-      <initValue>'APK File/IvyDMS_PNGIndia_1571_9917.apk'</initValue>
+      <initValue>findTestData('Cloud 03').getValue(2, 4)</initValue>
       <name>AndroidApplication</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Activation key for the application</description>
-      <initValue>'PNGIN-SF-RPKFEIZ'</initValue>
+      <initValue>findTestData('Cloud 03').getValue(2, 5)</initValue>
       <name>ActivationKey</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>DSE User Username</description>
-      <initValue>'TNPKL_MS115'</initValue>
+      <initValue>findTestData('Cloud 03').getValue(2, 6)</initValue>
       <name>dseUser</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>DSE User Password</description>
-      <initValue>'password1'</initValue>
+      <initValue>findTestData('Cloud 03').getValue(2, 7)</initValue>
       <name>dsePassword</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'TNPKL_MS115 - Himmat Singh'</initValue>
+      <initValue>findTestData('Cloud 03').getValue(2, 8)</initValue>
       <name>Salesperson</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Retailer for Mobile transactions</description>
-      <initValue>'APNA BAZAAR'</initValue>
+      <initValue>findTestData('Cloud 03').getValue(2, 9)</initValue>
       <name>MobileRetailer</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Sales Return Create</description>
-      <initValue>'Body Rzr'</initValue>
+      <initValue>findTestData('Cloud 03').getValue(2, 14)</initValue>
       <name>SKUName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'TNPKL_00412'</initValue>
-      <name>Retailer_Name</name>
+      <initValue>findTestData('Cloud 03').getValue(2, 10)</initValue>
+      <name>ChannelType</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Large A Beauty'</initValue>
-      <name>ChannelType</name>
+      <initValue>findTestData('Cloud 03').getValue(2, 11)</initValue>
+      <name>SRNSalesPerson</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Cloud 03').getValue(2, 12)</initValue>
+      <name>SRNRetailer</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestData('Cloud 03').getValue(2, 13)</initValue>
+      <name>SRN_Invoice</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>SRN_InvoceDate</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

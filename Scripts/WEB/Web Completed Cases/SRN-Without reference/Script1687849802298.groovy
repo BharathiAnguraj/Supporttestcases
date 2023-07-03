@@ -1,4 +1,6 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import org.sikuli.script.Pattern as Pattern
+import org.sikuli.script.Screen as Screen
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -250,40 +252,19 @@ WebUI.delay(5)
 WebUI.clickImage(findTestObject('Web/Sales Return with reference/Print button in preview'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5)
+Screen s = new Screen()
 
-Robot robot = new Robot()
+Pattern input_FileName = new Pattern('Image Objects\\File Name Enter bar.JPG')
 
-robot.keyPress(KeyEvent.VK_A)
+Pattern savebutton = new Pattern('Image Objects\\Save Button.PNG')
 
-robot.keyRelease(KeyEvent.VK_A)
+WebUI.delay(1)
 
-robot.keyPress(KeyEvent.VK_4)
+s.type(input_FileName, 'A4 SALES RETURN WR')
 
-robot.keyRelease(KeyEvent.VK_4)
+WebUI.delay(1)
 
-robot.keyPress(KeyEvent.VK_SPACE)
-
-robot.keyRelease(KeyEvent.VK_SPACE)
-
-robot.keyPress(KeyEvent.VK_S)
-
-robot.keyRelease(KeyEvent.VK_S)
-
-robot.keyPress(KeyEvent.VK_R)
-
-robot.keyRelease(KeyEvent.VK_R)
-
-robot.keyPress(KeyEvent.VK_W)
-
-robot.keyRelease(KeyEvent.VK_W)
-
-robot.keyPress(KeyEvent.VK_O)
-
-robot.keyRelease(KeyEvent.VK_O)
-
-robot.keyPress(KeyEvent.VK_ENTER)
-
-robot.keyPress(KeyEvent.VK_ENTER)
+s.click(savebutton)
 
 WebUI.click(findTestObject('Web/Sales Return with reference/Print template dropdown'))
 
@@ -301,63 +282,8 @@ WebUI.clickImage(findTestObject('Web/Sales Return with reference/Print button in
 
 WebUI.delay(5)
 
-robot.keyPress(KeyEvent.VK_A)
+s.type(input_FileName, 'A4 SALES RETURN Kerala WR')
 
-robot.keyRelease(KeyEvent.VK_A)
+WebUI.delay(1)
 
-robot.keyPress(KeyEvent.VK_4)
-
-robot.keyRelease(KeyEvent.VK_4)
-
-robot.keyPress(KeyEvent.VK_SPACE)
-
-robot.keyRelease(KeyEvent.VK_SPACE)
-
-robot.keyPress(KeyEvent.VK_S)
-
-robot.keyRelease(KeyEvent.VK_S)
-
-robot.keyPress(KeyEvent.VK_R)
-
-robot.keyRelease(KeyEvent.VK_R)
-
-robot.keyPress(KeyEvent.VK_SPACE)
-
-robot.keyRelease(KeyEvent.VK_SPACE)
-
-robot.keyPress(KeyEvent.VK_K)
-
-robot.keyRelease(KeyEvent.VK_K)
-
-robot.keyPress(KeyEvent.VK_E)
-
-robot.keyRelease(KeyEvent.VK_E)
-
-robot.keyPress(KeyEvent.VK_R)
-
-robot.keyRelease(KeyEvent.VK_R)
-
-robot.keyPress(KeyEvent.VK_A)
-
-robot.keyRelease(KeyEvent.VK_A)
-
-robot.keyPress(KeyEvent.VK_L)
-
-robot.keyRelease(KeyEvent.VK_L)
-
-robot.keyPress(KeyEvent.VK_A)
-
-robot.keyRelease(KeyEvent.VK_A)
-
-robot.keyPress(KeyEvent.VK_W)
-
-robot.keyRelease(KeyEvent.VK_W)
-
-robot.keyPress(KeyEvent.VK_O)
-
-robot.keyRelease(KeyEvent.VK_O)
-
-robot.keyPress(KeyEvent.VK_ENTER)
-
-robot.keyPress(KeyEvent.VK_ENTER)
-
+s.click(savebutton)

@@ -23,8 +23,8 @@ println userName
 
 try
 {
-File f1= new File("C:\\Users\\"+userName+"\\Downloads\\a4 sr.pdf")
-File f2= new File("C:\\Users\\"+userName+"\\Downloads\\a4 sr kerala.pdf")
+File f1= new File("C:\\Users\\"+userName+"\\Downloads\\A4 SALES RETURN.pdf")
+File f2= new File("C:\\Users\\"+userName+"\\Downloads\\A4 SALES RETURN Kerala.pdf")
 if(f1.delete())
 {
 println(f1.getName() + " F1 deleted")

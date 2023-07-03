@@ -28,9 +28,9 @@ import java.awt.datatransfer.DataFlavor as DataFlavor
 import java.awt.datatransfer.StringSelection as StringSelection
 import java.awt.datatransfer.Transferable as Transferable
 
-WebUI.callTestCase(findTestCase('WEB/Re usables/Invoice number from invoice history'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.callTestCase(findTestCase('WEB/Re usables/Launch Web Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.refresh()
+Mobile.callTestCase(findTestCase('WEB/Re usables/Branch User Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Sales Return with Reference'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -38,7 +38,7 @@ WebUI.callTestCase(findTestCase('WEB/Re usables/Delete Existing Invoices'), [:],
 
 WebUI.waitForElementPresent(findTestObject('Web/Sales Return with reference/Sales Person Textbox'), 0)
 
-WebUI.setText(findTestObject('Web/Sales Return with reference/Sales Person Textbox'), GlobalVariable.Salesperson)
+WebUI.setText(findTestObject('Web/Sales Return with reference/Sales Person Textbox'), GlobalVariable.SRNSalesPerson)
 
 WebUI.delay(2)
 
@@ -46,13 +46,13 @@ WebUI.sendKeys(findTestObject('Web/Sales Return with reference/Sales Person Text
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Web/Sales Return with reference/Retailer Textbox'), GlobalVariable.MobileRetailer)
+WebUI.setText(findTestObject('Web/Sales Return with reference/Retailer Textbox'), GlobalVariable.SRNRetailer)
 
 WebUI.delay(2)
 
 WebUI.sendKeys(findTestObject('Web/Sales Return with reference/Retailer Textbox'), Keys.chord(Keys.DOWN, Keys.ENTER))
 
-WebUI.setText(findTestObject('Web/Sales Return with reference/Invoice number'), GlobalVariable.invoiceNumber)
+WebUI.setText(findTestObject('Web/Sales Return with reference/Invoice number'), GlobalVariable.SRN_Invoice)
 
 WebUI.delay(2)
 
@@ -94,43 +94,31 @@ WebUI.click(findTestObject('Web/Sales Return with reference/Print template dropd
 
 WebUI.click(findTestObject('Web/Sales Return with reference/A4 Sales Return Template'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.clickImage(findTestObject('Web/Sales Return with reference/Print_image'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot()
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.clickImage(findTestObject('Web/Sales Return with reference/Print button in preview'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-Robot robot = new Robot()
+Screen s = new Screen()
 
-robot.keyPress(KeyEvent.VK_A)
+Pattern input_FileName = new Pattern('Image Objects\\File Name Enter bar.JPG')
 
-robot.keyRelease(KeyEvent.VK_A)
+Pattern savebutton = new Pattern('Image Objects\\Save Button.PNG')
 
-robot.keyPress(KeyEvent.VK_4)
+WebUI.delay(1)
 
-robot.keyRelease(KeyEvent.VK_4)
+s.type(input_FileName, 'A4 SALES RETURN')
 
-robot.keyPress(KeyEvent.VK_SPACE)
+WebUI.delay(1)
 
-robot.keyRelease(KeyEvent.VK_SPACE)
-
-robot.keyPress(KeyEvent.VK_S)
-
-robot.keyRelease(KeyEvent.VK_S)
-
-robot.keyPress(KeyEvent.VK_R)
-
-robot.keyRelease(KeyEvent.VK_R)
-
-robot.keyPress(KeyEvent.VK_ENTER)
-
-robot.keyPress(KeyEvent.VK_ENTER)
+s.click(savebutton)
 
 WebUI.click(findTestObject('Web/Sales Return with reference/Print template dropdown'))
 
@@ -142,61 +130,15 @@ WebUI.takeScreenshot()
 
 WebUI.clickImage(findTestObject('Web/Sales Return with reference/Print_image'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.clickImage(findTestObject('Web/Sales Return with reference/Print button in preview'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-robot.keyPress(KeyEvent.VK_A)
+s.type(input_FileName, 'A4 SALES RETURN Kerala')
 
-robot.keyRelease(KeyEvent.VK_A)
+WebUI.delay(1)
 
-robot.keyPress(KeyEvent.VK_4)
-
-robot.keyRelease(KeyEvent.VK_4)
-
-robot.keyPress(KeyEvent.VK_SPACE)
-
-robot.keyRelease(KeyEvent.VK_SPACE)
-
-robot.keyPress(KeyEvent.VK_S)
-
-robot.keyRelease(KeyEvent.VK_S)
-
-robot.keyPress(KeyEvent.VK_R)
-
-robot.keyRelease(KeyEvent.VK_R)
-
-robot.keyPress(KeyEvent.VK_SPACE)
-
-robot.keyRelease(KeyEvent.VK_SPACE)
-
-robot.keyPress(KeyEvent.VK_K)
-
-robot.keyRelease(KeyEvent.VK_K)
-
-robot.keyPress(KeyEvent.VK_E)
-
-robot.keyRelease(KeyEvent.VK_E)
-
-robot.keyPress(KeyEvent.VK_R)
-
-robot.keyRelease(KeyEvent.VK_R)
-
-robot.keyPress(KeyEvent.VK_A)
-
-robot.keyRelease(KeyEvent.VK_A)
-
-robot.keyPress(KeyEvent.VK_L)
-
-robot.keyRelease(KeyEvent.VK_L)
-
-robot.keyPress(KeyEvent.VK_A)
-
-robot.keyRelease(KeyEvent.VK_A)
-
-robot.keyPress(KeyEvent.VK_ENTER)
-
-robot.keyPress(KeyEvent.VK_ENTER)
+s.click(savebutton)
 

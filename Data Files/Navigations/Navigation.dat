@@ -3,11 +3,10 @@
    <description></description>
    <name>Navigation</name>
    <tag></tag>
-   <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>74d797d1-b6a7-45fd-af5a-5f3b3d735f59</dataFileGUID>
-   <dataSourceUrl>DDF/Navigation/Navigation.xlsx</dataSourceUrl>
+   <dataSourceUrl>Test Data/Navigation/Navigation.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

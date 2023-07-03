@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>a0ee0c9d-8965-4468-a008-7ca58519a99d</dataFileGUID>
-   <dataSourceUrl>DDF/Smoke Pack Test Data.xlsx</dataSourceUrl>
+   <dataSourceUrl>Test Data/Smoke Pack Test Data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>true</isInternalPath>
    <query></query>

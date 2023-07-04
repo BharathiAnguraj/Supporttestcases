@@ -38,7 +38,7 @@ String dirName = RunConfiguration.getProjectDir()
 
 dirName = dirName.replace('/', '\\\\')
 
-WebUI.uploadFile(findTestObject('Web/Sales Order Upload/Upload File'), dirName + '\\File Upload\\Sales_Order_Template_C01.xls')
+WebUI.uploadFile(findTestObject('Web/Sales Order Upload/Upload File'), dirName + '\\File Upload\\Sales_Order_Template_'+GlobalVariable.Env+'.xls')
 
 WebUI.click(findTestObject('Web/Sales Order Upload/Continue Button'))
 

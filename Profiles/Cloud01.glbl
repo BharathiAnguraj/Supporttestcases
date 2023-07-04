@@ -114,4 +114,9 @@
       <initValue>''</initValue>
       <name>invoiceNumber</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'C01'</initValue>
+      <name>Env</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -3,16 +3,16 @@
    <description></description>
    <name>Allow IvyCpg to access photos, media and files on your device</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>f82b8e5c-4973-4aaf-942a-67bc8237e8d2</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>d09033fc-7b8f-4f7c-8413-6a9799938579</webElementGuid>
+      <webElementGuid>69e71dc8-c5f5-48ec-a1fc-835d3a0b0120</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,23 +20,23 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>4e868d89-8695-4e20-86b1-ff7a0930ca63</webElementGuid>
+      <webElementGuid>f4f5901c-08e3-47da-bd2d-4d4552f1c8e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>Allow IvyCpg to access photos, media and files on your device?</value>
-      <webElementGuid>a35f40b5-c968-432a-85dc-609f13d69d8d</webElementGuid>
+      <webElementGuid>70505a9d-6480-46d6-ada4-6e6592df1ae5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
+      <matchCondition>contains</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
       <value>com.android.packageinstaller:id/permission_message</value>
-      <webElementGuid>578d520f-27a5-4650-8e22-12f62277baed</webElementGuid>
+      <webElementGuid>7c030777-aa75-4534-a07b-7019c66dadfe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.google.android.packageinstaller</value>
-      <webElementGuid>47bc174f-1f32-4622-b183-27ac0f38a146</webElementGuid>
+      <webElementGuid>f500bcab-340e-4885-bcd7-4587858d40c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>06875af3-3355-4afc-87af-e6646d426f1a</webElementGuid>
+      <webElementGuid>69c74d45-870c-4ab5-bc86-99aabdbf1774</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>02788beb-e53d-4f07-b795-87e5ccadfeae</webElementGuid>
+      <webElementGuid>3ba48a09-71d0-485f-b5bc-f32ce9c96efe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>92097077-d2d0-4d33-a67f-2105d558cf7a</webElementGuid>
+      <webElementGuid>46dd807e-7d84-4fe3-b53d-dfbb33fb6142</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>94eb0498-9c4e-4c36-aed4-096ef65b6d5c</webElementGuid>
+      <webElementGuid>486f4cb5-c5db-4a2b-b121-f2000cd81b85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b7021eed-b51e-4a26-bb99-ecf1e3f279fd</webElementGuid>
+      <webElementGuid>ae92d612-492a-4831-aa89-894a73fa6c3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>8da1952b-eaf4-44ec-9b68-06708b0ce314</webElementGuid>
+      <webElementGuid>196ffc1c-db5f-49c5-aa82-c41c5d94b4be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b71f4167-ac9a-42e7-8df0-b0a6f7a63abf</webElementGuid>
+      <webElementGuid>9488d0f1-8bac-457c-a043-152bb5f626b1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>da8e935c-077e-4bb0-960b-2dffff7e8ee6</webElementGuid>
+      <webElementGuid>fe31c206-d15a-4a28-993a-7d46c8efafc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4c14f88a-6295-4a4b-9f32-9aa90e027f3a</webElementGuid>
+      <webElementGuid>b664183a-2b66-43eb-af7f-9f6024c76020</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,7 +124,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9a0f0966-71b7-4f21-a9f7-00991c53253a</webElementGuid>
+      <webElementGuid>186102b3-db56-4957-bd99-541f83858c88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -132,7 +132,7 @@
       <name>x</name>
       <type>Main</type>
       <value>229</value>
-      <webElementGuid>b0a5e3c6-4bae-40c0-8794-71a118698542</webElementGuid>
+      <webElementGuid>a870f8ab-bd98-4ec6-b9f3-c25570e84519</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -140,7 +140,7 @@
       <name>y</name>
       <type>Main</type>
       <value>544</value>
-      <webElementGuid>3bb66906-c404-4360-be25-89267a1b9413</webElementGuid>
+      <webElementGuid>c87b9962-042b-402b-9772-6f054e11fc2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -148,7 +148,7 @@
       <name>width</name>
       <type>Main</type>
       <value>395</value>
-      <webElementGuid>d59e7705-da7c-4428-8086-f09acbc3788e</webElementGuid>
+      <webElementGuid>da21c61d-72da-4e0d-877e-aff36b5f7928</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -156,7 +156,7 @@
       <name>height</name>
       <type>Main</type>
       <value>101</value>
-      <webElementGuid>a5ef79e4-8bac-494e-89d0-22c3abb78239</webElementGuid>
+      <webElementGuid>c2de96a4-40c2-43c7-b3a1-27ba9e8f97a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -164,7 +164,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[229,544][624,645]</value>
-      <webElementGuid>1445f2d8-751a-4c48-9988-48c4fecb93ed</webElementGuid>
+      <webElementGuid>d8539124-5351-4431-8ced-f12c23ad17a7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,7 +172,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>97c123b3-8f95-45c4-a1a2-8ff4a730afca</webElementGuid>
+      <webElementGuid>66adbcd2-b7b8-4e4b-844a-68b812e29e20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -180,8 +180,8 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]</value>
-      <webElementGuid>beef5188-5f4c-43f9-b486-9a679f90a18b</webElementGuid>
+      <webElementGuid>3c0b3990-b055-4e2f-8a93-3ca47be6658f</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Allow IvyCpg to access photos, media and files on your device?' or . = 'Allow IvyCpg to access photos, media and files on your device?') and @resource-id = 'com.android.packageinstaller:id/permission_message']</locator>
-   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <locator>//*[contains(@resource-id, 'id/permission_message')]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

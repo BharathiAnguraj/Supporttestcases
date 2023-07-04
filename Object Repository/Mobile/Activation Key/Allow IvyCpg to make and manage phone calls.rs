@@ -3,7 +3,7 @@
    <description></description>
    <name>Allow IvyCpg to make and manage phone calls</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>1bf1ba21-bbcf-4025-9d9a-f7fab99a0093</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>c9026c46-6f87-4055-bc92-f86fe8bf5853</webElementGuid>
+      <webElementGuid>f2275eb0-b09d-4a45-a61c-b5266a64568d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>887e29bf-b2f6-4d0e-92a8-528c9d7b4742</webElementGuid>
+      <webElementGuid>c954dd88-bb51-4b95-98fd-8f4f995f0ea8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Allow IvyCpg to make and manage phone calls?</value>
-      <webElementGuid>d95b3fe5-fdee-44f5-b23d-4ce58bb0fd8e</webElementGuid>
+      <webElementGuid>fa4cfa23-ac4d-4d5f-9acb-23c2c50ba749</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,7 +36,7 @@
       <name>resource-id</name>
       <type>Main</type>
       <value>com.android.packageinstaller:id/permission_message</value>
-      <webElementGuid>05f82b79-f273-40ef-b5ec-1d241511ca46</webElementGuid>
+      <webElementGuid>371f2d1d-959a-49d7-9cf8-83aa5455b7b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -44,7 +44,7 @@
       <name>package</name>
       <type>Main</type>
       <value>com.google.android.packageinstaller</value>
-      <webElementGuid>32919030-23c6-4dc2-a382-405c142f4b4e</webElementGuid>
+      <webElementGuid>38f2d125-fd5e-4099-9a42-5b10d2d99f12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -52,7 +52,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>cf1aca43-4692-4d92-8108-f2fd997d4064</webElementGuid>
+      <webElementGuid>b8cd597b-160e-458f-8779-03efde877a86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +60,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>57bfccad-43cb-48bc-b701-20bbe4eaac5f</webElementGuid>
+      <webElementGuid>2be36b4f-71fc-46b9-b2e5-d2f912e7cee4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,7 +68,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f6156d46-605f-4c87-8439-98fb19b995cc</webElementGuid>
+      <webElementGuid>db72a910-4105-415a-85e6-87702c196d98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -76,7 +76,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3a33724b-3ca1-4a87-92ad-6404b9389b75</webElementGuid>
+      <webElementGuid>1747902c-61d1-4f38-a1cc-8ad072d53f6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -84,7 +84,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>416aaaad-ae22-4673-800a-f82e4c906254</webElementGuid>
+      <webElementGuid>c3d7c249-5ec3-4960-a39d-8d00941b72c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -92,7 +92,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e360f4fe-f3fb-442f-9e64-901fe6ed7faf</webElementGuid>
+      <webElementGuid>3ae55dd0-9405-4f68-a6b0-0867812c2678</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -100,7 +100,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ef14b377-b2b4-417e-b7b6-50032c7c9c1e</webElementGuid>
+      <webElementGuid>bdbcdd3e-7c7c-4dc2-8e19-6102cdbb8496</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -108,7 +108,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>68c3e29e-b4b4-4a93-8bf9-c934b4d9813a</webElementGuid>
+      <webElementGuid>30b0bd6c-d88b-4250-90a7-6ba9f559da19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -116,7 +116,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6e4e8d99-c9f8-403c-b0d9-03fb01382407</webElementGuid>
+      <webElementGuid>d3ad601f-05fb-471d-a7db-c2a6d59c592e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -124,7 +124,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>27bbb5f6-de9f-4ab8-af8f-c55f661f2ce2</webElementGuid>
+      <webElementGuid>5167c21e-d687-4bfa-8414-4b3c2adaf34d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -132,7 +132,7 @@
       <name>x</name>
       <type>Main</type>
       <value>229</value>
-      <webElementGuid>6255428d-1581-4c2f-91d0-00ad8e23d354</webElementGuid>
+      <webElementGuid>24b016d0-54da-41d3-949e-867cc5aacf94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -140,7 +140,7 @@
       <name>y</name>
       <type>Main</type>
       <value>576</value>
-      <webElementGuid>f53f1a08-d77f-41de-81c1-db8daf743396</webElementGuid>
+      <webElementGuid>45031f8e-7d36-466b-9cf3-c19f653e3df2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -148,7 +148,7 @@
       <name>width</name>
       <type>Main</type>
       <value>395</value>
-      <webElementGuid>52c3a8eb-e021-4356-afd8-c7cc39cff0f6</webElementGuid>
+      <webElementGuid>d31ce699-477d-4f00-872e-eecbe2c9b763</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -156,7 +156,7 @@
       <name>height</name>
       <type>Main</type>
       <value>69</value>
-      <webElementGuid>5da31507-7b85-473c-bd8e-8eb93b7e160b</webElementGuid>
+      <webElementGuid>ee299f46-09d5-4d89-a34a-4df6764bcc94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -164,7 +164,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[229,576][624,645]</value>
-      <webElementGuid>9301587b-f190-4157-993e-16da9d575d17</webElementGuid>
+      <webElementGuid>06e067a1-f116-4730-bbf6-ac7e1e359c35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -172,7 +172,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>9ff0ae53-c893-452d-b216-47ed2546e264</webElementGuid>
+      <webElementGuid>f7a6a8af-1cb0-46c0-84f8-19d1da2b0699</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -180,8 +180,8 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]</value>
-      <webElementGuid>17d09dd1-31d3-4176-b153-05c293f90032</webElementGuid>
+      <webElementGuid>d4fbfc64-82a3-4a9e-b249-2831fc3a3141</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.widget.TextView' and (@text = 'Allow IvyCpg to make and manage phone calls?' or . = 'Allow IvyCpg to make and manage phone calls?') and @resource-id = 'com.android.packageinstaller:id/permission_message']</locator>
-   <locatorStrategy>ATTRIBUTES</locatorStrategy>
+   <locator>//*[contains(@resource-id, 'id/permission_message')]</locator>
+   <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>

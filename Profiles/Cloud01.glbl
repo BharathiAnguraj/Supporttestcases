@@ -77,6 +77,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
+      <name>Retailer_Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
       <name>SRN_InvoceDate</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

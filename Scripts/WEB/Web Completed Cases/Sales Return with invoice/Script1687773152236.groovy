@@ -28,9 +28,7 @@ import java.awt.datatransfer.DataFlavor as DataFlavor
 import java.awt.datatransfer.StringSelection as StringSelection
 import java.awt.datatransfer.Transferable as Transferable
 
-Mobile.callTestCase(findTestCase('WEB/Re usables/Launch Web Browser'), [:], FailureHandling.STOP_ON_FAILURE)
-
-Mobile.callTestCase(findTestCase('WEB/Re usables/Branch User Login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.refresh()
 
 WebUI.callTestCase(findTestCase('WEB/Re usables/Navigations/Sales Return with Reference'), [:], FailureHandling.STOP_ON_FAILURE)
 

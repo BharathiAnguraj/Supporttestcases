@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('WEB/Re usables/Reports Navigation/Navigation'), [('Navigation') : findTestData('Navigations' + '/Navigation').getValue(
+WebUI.callTestCase(findTestCase('WEB/Re usables/Reports Navigation/Navigation'), [('Navigation') : findTestData('Navigations' + '/'+GlobalVariable.Env+'Navigation').getValue(
 	2, 9)], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Web/Branch/Login/Header'), 0, FailureHandling.OPTIONAL)

@@ -16,7 +16,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('WEB/Re usables/Reports Navigation/Navigation'), [('Navigation') : findTestData('Navigations' + '/Navigation').getValue(
+WebUI.callTestCase(findTestCase('WEB/Re usables/Reports Navigation/Navigation'), [('Navigation') : findTestData('Navigations' + '/'+GlobalVariable.Env+'Navigation').getValue(
             2, 3)], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.verifyElementPresent(findTestObject('Web/Branch/Login/Header'), 0, FailureHandling.OPTIONAL)

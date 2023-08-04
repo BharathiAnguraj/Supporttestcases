@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//label[contains(@for,'check')])[2]</value>
+         <value>(//label[contains(@for,'check')])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +21,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Web/Frame/Main Frame</value>
-      <webElementGuid>4703de09-1cd9-4362-b850-d5041cb56c7b</webElementGuid>
+      <webElementGuid>294fbea4-c94b-45ca-8b5a-cba4c22bcd4a</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

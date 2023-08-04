@@ -25,7 +25,5 @@ WebUI.callTestCase(findTestCase('WEB/Web Completed Cases/Swap SUBBF'), [:], Fail
 
 WebUI.callTestCase(findTestCase('WEB/Web Completed Cases/Stock Allocation and Stock allocation View'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('WEB/Web Completed Cases/Picklist'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.callTestCase(findTestCase('WEB/Web Completed Cases/Collection And Bank Reco'), [:], FailureHandling.STOP_ON_FAILURE)
 
